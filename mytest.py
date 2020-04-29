@@ -1,5 +1,6 @@
 import sys
 import os
+from time import time
 from Tools.Profile import profile, profile_final
 profile("PYTHON_START")
 
@@ -30,7 +31,7 @@ from Screens.SimpleSummary import SimpleSummary
 from sys import stdout
 
 profile("Bouquets")
-from Components.config import config, configfile, ConfigText, ConfigYesNo, ConfigInteger, NoSave
+from Components.config import config, configfile, ConfigText, ConfigYesNo, ConfigInteger, ConfigSelection, NoSave
 config.misc.load_unlinked_userbouquets = ConfigYesNo(default=True)
 def setLoadUnlinkedUserbouquets(configElement):
 	enigma.eDVBDB.getInstance().setLoadUnlinkedUserbouquets(configElement.value)
@@ -54,7 +55,9 @@ InitFallbackFiles()
 profile("config.misc")
 config.misc.radiopic = ConfigText(default = resolveFilename(SCOPE_CURRENT_SKIN, "radio.mvi"))
 config.misc.blackradiopic = ConfigText(default = resolveFilename(SCOPE_CURRENT_SKIN, "black.mvi"))
-config.misc.useTransponderTime = ConfigYesNo(default=True)
+config.misc.useTransponderTime = ConfigYesNo(default=False)
+config.misc.SyncTimeUsing = ConfigSelection(default = "0", choices = [("0", _("Transponder time")), ("1", _("NTP"))])
+config.misc.NTPserver = ConfigText(default = 'pool.ntp.org', fixed_size=False)
 config.misc.startCounter = ConfigInteger(default=0) # number of e2 starts...
 config.misc.standbyCounter = NoSave(ConfigInteger(default=0)) # number of standby
 config.misc.DeepStandby = NoSave(ConfigYesNo(default=False)) # detect deepstandby
@@ -82,9 +85,25 @@ def setEPGCachePath(configElement):
 #config.misc.standbyCounter.addNotifier(standbyCountChanged, initial_call = False)
 ####################################################
 
-def useTransponderTimeChanged(configElement):
-	enigma.eDVBLocalTimeHandler.getInstance().setUseDVBTime(configElement.value)
-config.misc.useTransponderTime.addNotifier(useTransponderTimeChanged)
+def useSyncUsingChanged(configelement):
+	if configelement.value == "0":
+		print("[mytest] Time By: Transponder")
+		enigma.eDVBLocalTimeHandler.getInstance().setUseDVBTime(True)
+		enigma.eEPGCache.getInstance().timeUpdated()
+	else:
+		print("[mytest] Time By: NTP")
+		enigma.eDVBLocalTimeHandler.getInstance().setUseDVBTime(False)
+		enigma.eEPGCache.getInstance().timeUpdated()
+config.misc.SyncTimeUsing.addNotifier(useSyncUsingChanged)
+
+def NTPserverChanged(configelement):
+	open("/etc/default/ntpdate", "w").write('NTPSERVERS="' + configelement.value + '"\n')
+	os.chmod("/etc/default/ntpdate", 0755)
+	from Components.Console import Console
+	Console = Console()
+	Console.ePopen('/usr/bin/ntpdate-sync')
+config.misc.NTPserver.addNotifier(NTPserverChanged, immediate_feedback = False)
+config.misc.NTPserver.callNotifiersOnSaveAndCancel = True
 
 profile("Twisted")
 try:
@@ -486,7 +505,7 @@ def runScreenTest():
 	runReactor()
 
 	profile("wakeup")
-	from time import time, strftime, localtime
+	from time import strftime, localtime
 	from Tools.StbHardware import setFPWakeuptime, setRTCtime
 	from Screens.SleepTimerEdit import isNextWakeupTime
 	#get currentTime
@@ -551,7 +570,7 @@ profile("UsageConfig")
 import Components.UsageConfig
 Components.UsageConfig.InitUsageConfig()
 
-profile("Timezones")
+profile("TimeZones")
 import Components.Timezones
 Components.Timezones.InitTimeZones()
 
