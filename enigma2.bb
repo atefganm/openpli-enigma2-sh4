@@ -1,5 +1,5 @@
 DESCRIPTION = "Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions"
-MAINTAINER = "Hello World"
+MAINTAINER = "Hello World (pli-based)"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
@@ -8,9 +8,9 @@ inherit gitpkgv externalsrc
 S = "${FILE_DIRNAME}"
 WORKDIR = "${S}/build"
 
-PV = "2.7+git"
-PKGV = "2.7+git${GITPKGV}"
-PR = "r26"
+PV = "sh4+git"
+PKGV = "sh4+git${GITPKGV}"
+PR = "r1"
 
 FILES_${PN} += "${datadir}/keymaps"
 FILES_${PN}-meta = "${datadir}/meta"
