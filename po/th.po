@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuxbox-enigma 0.0.1-En-Th\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-22 22:37+0100\n"
+"POT-Creation-Date: 2020-05-25 03:18+0200\n"
 "PO-Revision-Date: 2010-04-08 18:13+0700\n"
 "Last-Translator: Tony - Thaidreambox\n"
 "Language-Team: Tony @ Thai Dreambox <tonyboyth@gmail.com>\n"
@@ -53,6 +53,9 @@ msgstr ""
 msgid ""
 "\n"
 "Timer '%s' disabled!"
+msgstr ""
+
+msgid " "
 msgstr ""
 
 msgid " (0 - all networks)"
@@ -311,6 +314,10 @@ msgstr ""
 msgid "%k:%M %e/%m"
 msgstr ""
 
+#, python-format
+msgid "%s"
+msgstr ""
+
 #, fuzzy, python-format
 msgid ""
 "%s\n"
@@ -366,6 +373,10 @@ msgstr ""
 
 #, python-format
 msgid "%s:%s"
+msgstr ""
+
+#, python-format
+msgid "%s?"
 msgstr ""
 
 msgid "(VU+ type)"
@@ -512,6 +523,10 @@ msgstr ""
 msgid "444"
 msgstr ""
 
+#, fuzzy
+msgid "450 (default)"
+msgstr "ค่าเริ่มต้น"
+
 msgid "4:3"
 msgstr "4:3"
 
@@ -530,6 +545,10 @@ msgstr "5"
 
 msgid "50 MB/s"
 msgstr ""
+
+#, fuzzy
+msgid "540 (default)"
+msgstr "ค่าเริ่มต้น"
 
 msgid "6"
 msgstr "6"
@@ -1022,6 +1041,9 @@ msgstr ""
 msgid "Always include ECM messages in recordings. This overrides the individual timer settings globally. It allows recordings to be always decrypted afterwards (sometimes called offline decoding), if supported by your receiver. Default: off."
 msgstr ""
 
+msgid "Always off"
+msgstr ""
+
 msgid "American Samoa"
 msgstr ""
 
@@ -1063,6 +1085,12 @@ msgstr ""
 msgid "Arabic"
 msgstr "ภาษาอาหรับ"
 
+#, fuzzy
+msgid "Are you sure to delete image:"
+msgstr ""
+"ท่านแน่หรือไม่ที่จะลบ\n"
+"ชุดสำรองข้อมูล:\n"
+
 msgid "Are you sure to purge all deleted user bouquets?"
 msgstr ""
 
@@ -1081,6 +1109,15 @@ msgstr ""
 
 msgid "Are you sure to remove this entry?"
 msgstr ""
+
+msgid "Are you sure to restore all deleted images"
+msgstr ""
+
+#, fuzzy
+msgid ""
+"Are you sure to save the current configuration and reboot your receiver?\n"
+"\n"
+msgstr "ออกจากการตั้งค่า Nameserver"
 
 msgid ""
 "Are you sure you want to activate this network configuration?\n"
@@ -1463,6 +1500,9 @@ msgstr ""
 msgid "Boost green"
 msgstr "เขียว"
 
+msgid "Booster Control"
+msgstr ""
+
 msgid "Boot to Android image"
 msgstr ""
 
@@ -1745,13 +1785,28 @@ msgstr "ช่องรายการ:"
 msgid "Channellist menu"
 msgstr "เมนูช่องรายการ"
 
+msgid "Channelname in Standby Clock"
+msgstr ""
+
+msgid "Channelname in Standby off"
+msgstr ""
+
 msgid "Channelnumber and picon"
 msgstr ""
 
 msgid "Channelnumber and servicename"
 msgstr ""
 
+msgid "Channelnumber in Standby Clock"
+msgstr ""
+
+msgid "Channelnumber in Standby off"
+msgstr ""
+
 msgid "Channelnumber, picon and servicename"
+msgstr ""
+
+msgid "Channelnumber/Clock in Standby Clock"
 msgstr ""
 
 #, fuzzy
@@ -1855,6 +1910,10 @@ msgstr "ล้างสารบัญรายการ"
 msgid "Client is streaming from this box!"
 msgstr ""
 
+#, fuzzy
+msgid "Clock always"
+msgstr "16:9 ตลอดเวลา"
+
 msgid "Clone TV screen to LCD"
 msgstr ""
 
@@ -1890,6 +1949,10 @@ msgstr "ตั้งค่าคอลเลคชั่น"
 
 #, fuzzy
 msgid "Colombia"
+msgstr "ระบบสี"
+
+#, fuzzy
+msgid "Color"
 msgstr "ระบบสี"
 
 #, fuzzy
@@ -2715,6 +2778,10 @@ msgstr ""
 msgid "Delete"
 msgstr "ลบ"
 
+#, fuzzy
+msgid "Delete Image"
+msgstr "ลบไฟล์"
+
 msgid "Delete entry"
 msgstr "ลบรายการ"
 
@@ -2737,10 +2804,13 @@ msgstr "ลบรายการนี้"
 msgid "Delete saved playlist"
 msgstr "ลบรายการสารบัญ"
 
-msgid "Delete the character to the left of text buffer cursor"
+msgid "Delete the all the text"
 msgstr ""
 
-msgid "Delete the character under the text buffer cursor"
+msgid "Delete the character to the left of text cursor"
+msgstr ""
+
+msgid "Delete the character under the text cursor"
 msgstr ""
 
 msgid "Delete timer"
@@ -2748,6 +2818,10 @@ msgstr ""
 
 msgid "Deleted"
 msgstr ""
+
+#, fuzzy
+msgid "Deleted image"
+msgstr "ลบไฟล์"
 
 msgid "Deleted items"
 msgstr ""
@@ -3337,6 +3411,10 @@ msgstr ""
 msgid "Enabled"
 msgstr "เปิดใช้งาน"
 
+#, fuzzy
+msgid "Encrypted TV"
+msgstr "การเข้ารหัส"
+
 msgid "Encrypted: "
 msgstr ""
 
@@ -3513,9 +3591,6 @@ msgstr "ภาษาเอสโตเนี่ยน"
 msgid "Estonian"
 msgstr "ภาษาเอสโตเนี่ยน"
 
-msgid "EtPortal"
-msgstr ""
-
 msgid "Ethernet network interface"
 msgstr ""
 
@@ -3675,12 +3750,6 @@ msgstr ""
 msgid "Extra start time to ignore inactivity sleeptimer"
 msgstr ""
 
-msgid "F"
-msgstr ""
-
-msgid "F1/F3/F4/F4-TURBO"
-msgstr ""
-
 msgid "FAILED"
 msgstr ""
 
@@ -3712,10 +3781,17 @@ msgstr "FEC"
 msgid "FEC:"
 msgstr ""
 
+#, fuzzy
+msgid "FFmpeg version: "
+msgstr "เวอร์ชั่นใหม่:"
+
 msgid "FHD"
 msgstr ""
 
 msgid "FTA"
+msgstr ""
+
+msgid "FTA TV"
 msgstr ""
 
 msgid "Factory reset"
@@ -3775,14 +3851,6 @@ msgstr ""
 #, python-format
 msgid "Fan %d"
 msgstr ""
-
-#, python-format
-msgid "Fan %d PWM"
-msgstr ""
-
-#, fuzzy, python-format
-msgid "Fan %d voltage"
-msgstr "เพิ่ม Voltage"
 
 msgid "Fan operation"
 msgstr ""
@@ -3922,6 +3990,10 @@ msgstr ""
 msgid "Frequency & Polarization"
 msgstr ""
 
+#, fuzzy
+msgid "Frequency (kHz)"
+msgstr "ความถี่"
+
 msgid "Frequency bands"
 msgstr "แถบของความถี่"
 
@@ -3964,9 +4036,6 @@ msgid "Further Options"
 msgstr ""
 
 msgid "Further options"
-msgstr ""
-
-msgid "G"
 msgstr ""
 
 #, fuzzy
@@ -4149,20 +4218,11 @@ msgstr ""
 msgid "Guyana"
 msgstr ""
 
-msgid "H"
-msgstr ""
-
 #, fuzzy
 msgid "HD"
 msgstr "D"
 
 msgid "HD list"
-msgstr ""
-
-msgid "HD2400"
-msgstr ""
-
-msgid "HD60"
 msgstr ""
 
 msgid "HDMI"
@@ -4193,9 +4253,6 @@ msgid "HDR10"
 msgstr ""
 
 msgid "HDR10 support"
-msgstr ""
-
-msgid "HDx1/HD1xxx/HD5x0C/VS1x00/et7x00/et8500/et7000mini"
 msgstr ""
 
 msgid "HELP"
@@ -4246,6 +4303,9 @@ msgid "Hebrew"
 msgstr ""
 
 msgid "Helps setting up your antenna"
+msgstr ""
+
+msgid "Here you can change the screen positions with the arrow buttons on your remote control!"
 msgstr ""
 
 msgid "Hidden network"
@@ -4343,9 +4403,6 @@ msgstr "ภาษาฮังการี่"
 #, fuzzy
 msgid "Hungary"
 msgstr "ภาษาฮังการี่"
-
-msgid "I"
-msgstr ""
 
 #, fuzzy
 msgid "I do not want to perform any service scans"
@@ -4710,9 +4767,6 @@ msgstr ""
 msgid "Items per page for list screen"
 msgstr ""
 
-msgid "J"
-msgstr ""
-
 msgid "Jamaica"
 msgstr ""
 
@@ -4805,6 +4859,10 @@ msgstr "แลนอะแด๊ปเตอร์"
 
 msgid "LAN connection"
 msgstr ""
+
+#, fuzzy
+msgid "LED Display Setup"
+msgstr "ตั้งค่าการแสดงผล"
 
 msgid "LNB"
 msgstr "LNB"
@@ -5285,28 +5343,30 @@ msgstr "ย้ายภาพซ้อนภาพ"
 msgid "Move east"
 msgstr "เคลื่อนไปทางทิศตะวันออก"
 
-msgid "Move the text buffer cursor left"
+msgid "Move the keyboard cursor down"
 msgstr ""
 
-msgid "Move the text buffer cursor right"
+msgid "Move the keyboard cursor left"
 msgstr ""
 
-msgid "Move the text buffer cursor to the first character"
+msgid "Move the keyboard cursor right"
 msgstr ""
 
-msgid "Move the text buffer cursor to the last character"
+msgid "Move the keyboard cursor up"
 msgstr ""
 
-msgid "Move the virtual keyboard cursor down"
+#, fuzzy
+msgid "Move the text cursor left"
+msgstr "เลือกมุมมองอันต่อไป"
+
+#, fuzzy
+msgid "Move the text cursor right"
+msgstr "ย้ายลงไป"
+
+msgid "Move the text cursor to the first character"
 msgstr ""
 
-msgid "Move the virtual keyboard cursor left"
-msgstr ""
-
-msgid "Move the virtual keyboard cursor right"
-msgstr ""
-
-msgid "Move the virtual keyboard cursor up"
+msgid "Move the text cursor to the last character"
 msgstr ""
 
 msgid "Move to position X"
@@ -5431,6 +5491,9 @@ msgstr ""
 
 msgid "NOW"
 msgstr "ตอนนี้"
+
+msgid "NTP"
+msgstr ""
 
 msgid "NTSC"
 msgstr "NTSC"
@@ -5740,6 +5803,9 @@ msgstr "ฟอร์แมท"
 msgid "Normal mode"
 msgstr ""
 
+msgid "Normal running frequency"
+msgstr ""
+
 msgid "North"
 msgstr "เหนือ"
 
@@ -5800,6 +5866,12 @@ msgstr ""
 msgid "Now playing"
 msgstr "กำลังเล่น"
 
+msgid "Now you can change the position of the lower and right side. Press blue button to switch..."
+msgstr ""
+
+msgid "Now you can change the position of the upper and left side. Press blue button to switch..."
+msgstr ""
+
 msgid "Now, use the contrast setting to turn up the brightness of the background as much as possible, but make sure that you can still see the difference between the two brightest levels of shades.If you have done that, press OK."
 msgstr "ตอนนี้.. ให้ปรับความชัดของหน้าจอโดยการเพิ่มความสว่างให้มากที่สุด แต่ต้องแน่ใจว่าเห็นความแตกต่างของสีที่สว่างที่สุด หากจบกระบวนการแล้วให้กดปุ่ม OK"
 
@@ -5820,6 +5892,13 @@ msgstr ""
 
 msgid "OSD 3D setup"
 msgstr ""
+
+msgid "OSD Adjustment"
+msgstr ""
+
+#, fuzzy
+msgid "OSD Position setup"
+msgstr "ตั้งค่าตัวขับจาน"
 
 msgid "OSD name request"
 msgstr ""
@@ -6729,9 +6808,6 @@ msgstr "เร็ว"
 msgid "Quick zap"
 msgstr "เปลี่ยนช่องเร็ว (Quickzap)"
 
-msgid "REC"
-msgstr ""
-
 msgid "RF output"
 msgstr "RF output"
 
@@ -6793,9 +6869,6 @@ msgstr ""
 msgid "Reboot"
 msgstr "เริ่มระบบใหม่ (Reboot)"
 
-msgid "Rec"
-msgstr ""
-
 msgid "Recall to previous service"
 msgstr ""
 
@@ -6804,6 +6877,10 @@ msgid "Reception settings"
 msgstr "ตั้งค่าการรับ"
 
 msgid "Record"
+msgstr "บันทึก"
+
+#, fuzzy
+msgid "Record only"
 msgstr "บันทึก"
 
 #, python-format
@@ -7108,6 +7185,10 @@ msgstr "นำสำรองกลับมาใช้"
 msgid "Restore defaults"
 msgstr "นำสำรองกลับมาใช้"
 
+#, fuzzy
+msgid "Restore deleted images"
+msgstr "นำสำรองกลับมาใช้"
+
 msgid "Restore deleted user bouquets"
 msgstr ""
 
@@ -7143,10 +7224,6 @@ msgstr "กำลังกลับมาเล่นที่เดิม"
 
 #, fuzzy
 msgid "Retrieving image list - Please wait..."
-msgstr "กำลังโหลดข้อมูล Plugin กรุณารอสักครู่..."
-
-#, fuzzy
-msgid "Retrieving image slots - Please wait..."
 msgstr "กำลังโหลดข้อมูล Plugin กรุณารอสักครู่..."
 
 msgid "Return to movie list"
@@ -7734,8 +7811,12 @@ msgstr ""
 msgid "Select the User Band to be assigned to this tuner. This is an index into the table of frequencies the SCR switch or SCR LNB uses to pass the requested transponder to the tuner."
 msgstr ""
 
-msgid "Select the character or action under the virtual keyboard cursor"
+msgid "Select the character or action under the keyboard cursor"
 msgstr ""
+
+#, fuzzy
+msgid "Select the locale from a menu"
+msgstr "เลือกพาธของภาพยนต์"
 
 msgid "Select the manufacturer of your SCR device. If the manufacturer is not listed, set 'SCR' to 'user defined' and enter the device parameters manually according to its spec sheet."
 msgstr ""
@@ -7768,6 +7849,13 @@ msgstr ""
 msgid "Select the satellite your dish receives from. If you are unsure select 'automatic' and the receiver will attempt to determine this for you."
 msgstr ""
 
+#, fuzzy
+msgid "Select the shifted character set"
+msgstr "เลือกพาธของภาพยนต์"
+
+msgid "Select the shifted character set for the next character only"
+msgstr ""
+
 msgid "Select the time zone within the area or region."
 msgstr ""
 
@@ -7784,15 +7872,6 @@ msgid "Select the type of LNB/device being used (normally 'Universal'). If your 
 msgstr ""
 
 msgid "Select the type of Single Cable Reception device you are using."
-msgstr ""
-
-msgid "Select the virtual keyboard locale from a menu"
-msgstr ""
-
-msgid "Select the virtual keyboard shifted character set"
-msgstr ""
-
-msgid "Select the virtual keyboard shifted character set for the next character only"
 msgstr ""
 
 #, fuzzy
@@ -7929,6 +8008,10 @@ msgid ""
 msgstr ""
 "บริการนี้ไม่ถูกต้อง!\n"
 "(Timeout reading PMT)"
+
+#, fuzzy
+msgid "Service list"
+msgstr "บริการย่อย..."
 
 #, fuzzy
 msgid "Service name"
@@ -8198,6 +8281,9 @@ msgstr "ดูส่วนเพิ่มเติม..."
 msgid "Show favourites list"
 msgstr ""
 
+msgid "Show green LED on VFD"
+msgstr ""
+
 msgid "Show help"
 msgstr ""
 
@@ -8265,6 +8351,10 @@ msgstr ""
 msgid "Show notification when import channels was successful"
 msgstr ""
 
+#, fuzzy
+msgid "Show on VFD"
+msgstr "แสดงข้อมูล"
+
 msgid "Show packages to be updated"
 msgstr ""
 
@@ -8284,6 +8374,9 @@ msgid "Show record clock icons"
 msgstr ""
 
 msgid "Show record indicator"
+msgstr ""
+
+msgid "Show red LED on VFD"
 msgstr ""
 
 msgid "Show screensaver"
@@ -8639,6 +8732,9 @@ msgstr ""
 msgid "Spanish"
 msgstr "ภาษาสเปน"
 
+msgid "Spark7162 select tuner mode"
+msgstr ""
+
 msgid "Special 1"
 msgstr ""
 
@@ -8708,15 +8804,21 @@ msgstr "Standby"
 msgid "Standby after current event"
 msgstr ""
 
-#, python-format
-msgid "Standby fan %d PWM"
-msgstr ""
-
-#, python-format
-msgid "Standby fan %d voltage"
-msgstr ""
-
 msgid "Standby in "
+msgstr ""
+
+#, fuzzy
+msgid "Standby only"
+msgstr "Standby"
+
+msgid "Standby saver frequency"
+msgstr ""
+
+#, fuzzy
+msgid "Start Boot Frequency"
+msgstr "ความถี่"
+
+msgid "Start boot frequency"
 msgstr ""
 
 msgid "Start directory"
@@ -8937,11 +9039,23 @@ msgstr ""
 msgid "Subtitle settings"
 msgstr ""
 
+#, fuzzy
+msgid "Subtitle show/hide..."
+msgstr "ซับไตเติ้ล"
+
 msgid "Subtitles"
 msgstr "ซับไตเติ้ล"
 
 msgid "Subtitles Settings"
 msgstr ""
+
+#, fuzzy
+msgid "Subtitles disabled"
+msgstr "ซับไตเติ้ล"
+
+#, fuzzy
+msgid "Subtitles enabled"
+msgstr "ซับไตเติ้ล"
 
 msgid "Succeeded:"
 msgstr ""
@@ -9093,6 +9207,9 @@ msgstr ""
 msgid "T2MI RAW Mode"
 msgstr ""
 
+msgid "TEXT"
+msgstr ""
+
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
 msgstr "TRANSLATOR_INFO"
@@ -9101,9 +9218,6 @@ msgid "TS file is too large for ISO9660 level 1!"
 msgstr "ชื่อไฟล์ TS ยาวเกินไปสำหรับ ISO9660 level 1!"
 
 msgid "TSID"
-msgstr ""
-
-msgid "TUNER:"
 msgstr ""
 
 msgid "TUNING"
@@ -9138,12 +9252,12 @@ msgstr ""
 msgid "Teletext subtitle color"
 msgstr ""
 
-#, fuzzy
-msgid "Temperature and fan control"
-msgstr "ควบคุมอายุ"
-
 msgid "Terrestrial"
 msgstr "ภาคพื้นดิน"
+
+#, fuzzy
+msgid "Test"
+msgstr "โหมดทดสอบ"
 
 msgid "Test DiSEqC settings"
 msgstr "ทดสอบการตั้งค่า DiSEqC"
@@ -9576,6 +9690,10 @@ msgid "Time"
 msgstr "เวลา"
 
 #, fuzzy
+msgid "Time mode"
+msgstr "Tone mode"
+
+#, fuzzy
 msgid "Time scale"
 msgstr "เลือกการตั้งเวลา"
 
@@ -9710,8 +9828,15 @@ msgstr ""
 msgid "Toggle show/hide"
 msgstr ""
 
+msgid "Toggle subtitles show/hide"
+msgstr ""
+
 msgid "Toggle the tv and the radio player..."
 msgstr ""
+
+#, fuzzy
+msgid "Toggle videomode"
+msgstr "เลือกโหมดวีดีโอ"
 
 msgid "Togo"
 msgstr ""
@@ -9761,6 +9886,10 @@ msgid "Transmission mode"
 msgstr "โหมดการถ่ายทอด"
 
 msgid "Transponder"
+msgstr "ทรานสปอนเดอร์"
+
+#, fuzzy
+msgid "Transponder time"
 msgstr "ทรานสปอนเดอร์"
 
 #, fuzzy
@@ -9967,6 +10096,13 @@ msgstr ""
 msgid "Uninstall"
 msgstr ""
 
+msgid "UnionTunerType"
+msgstr ""
+
+#, fuzzy
+msgid "UnionTunerType config"
+msgstr "ตั้งค่า Tuner"
+
 msgid "United Arab Emirates"
 msgstr ""
 
@@ -10003,6 +10139,9 @@ msgstr "กำลังดาวน์โหลด"
 
 msgid "Update"
 msgstr "ปรุบปรุง"
+
+msgid "Update Date/Time"
+msgstr ""
 
 msgid "Update and ask to reboot"
 msgstr ""
@@ -10216,9 +10355,6 @@ msgid "VOB File"
 msgstr ""
 
 msgid "VOB file"
-msgstr ""
-
-msgid "VU+"
 msgstr ""
 
 #, fuzzy
@@ -10944,6 +11080,9 @@ msgstr "ต้องรอประมาณ %s!"
 msgid "You must switch to the service %s (%s - '%s')!\n"
 msgstr ""
 
+msgid "You seem to be in timeshift!"
+msgstr ""
+
 msgid "Your collection exceeds the size of a single layer medium, you will need a blank dual layer DVD!"
 msgstr "ข้อมูลที่เลือกใหญ่กว่าดีวีดีแบบชั้นเดียว ท่านต้องใช้ดีวีดีแบบ 2 ชั้น"
 
@@ -11073,22 +11212,7 @@ msgstr ""
 msgid "Zapped to timer service %s!"
 msgstr "ย้ายไปบนสุด"
 
-msgid "Zgemma H.S/H.2S/H.2H/H5/H7(old model)"
-msgstr ""
-
-msgid "Zgemma H7(new model)/H9(new model)/H9COMBO/H9TWIN/H10"
-msgstr ""
-
-msgid "Zgemma H9(old model)/I55Plus"
-msgstr ""
-
-msgid "Zgemma Star S/2S/H1/H2"
-msgstr ""
-
 msgid "Zimbabwe"
-msgstr ""
-
-msgid "[REC]"
 msgstr ""
 
 msgid "[alternative edit]"
@@ -11227,6 +11351,14 @@ msgstr ""
 msgid "by date"
 msgstr "เรียงตามวันที่"
 
+#, fuzzy
+msgid "cable"
+msgstr "เคเบิ้ล"
+
+#, fuzzy
+msgid "cancel"
+msgstr "ยกเลิก"
+
 msgid "cartoon/puppets"
 msgstr ""
 
@@ -11238,6 +11370,14 @@ msgstr ""
 
 msgid "centered, wrapped"
 msgstr ""
+
+#, fuzzy
+msgid "change sides"
+msgstr "เปลี่ยน Step"
+
+#, fuzzy
+msgid "change the OSD screen size"
+msgstr "เปลี่ยน Step"
 
 msgid "chapters"
 msgstr "บทที่"
@@ -11366,21 +11506,6 @@ msgstr ""
 msgid "error while scanning"
 msgstr ""
 
-msgid "et4000"
-msgstr ""
-
-msgid "et5000/et6000"
-msgstr ""
-
-msgid "et8000/et10000"
-msgstr ""
-
-msgid "et9000/et9100"
-msgstr ""
-
-msgid "et9200/et9500/et6500"
-msgstr ""
-
 msgid "execute cuts (requires MovieCut plugin)"
 msgstr ""
 
@@ -11457,6 +11582,9 @@ msgstr "เหลืออยู่"
 msgid "from"
 msgstr ""
 
+msgid "fs9000"
+msgstr ""
+
 msgid "further education"
 msgstr ""
 
@@ -11489,6 +11617,12 @@ msgstr "ช่วยเหลือ..."
 
 msgid "horizontal"
 msgstr "แนวนอน (H)"
+
+msgid "hs7110"
+msgstr ""
+
+msgid "hs9510"
+msgstr ""
 
 #, fuzzy
 msgid "in menu and plugins"
@@ -11731,6 +11865,9 @@ msgstr ""
 msgid "only from standby"
 msgstr ""
 
+msgid "open Info..."
+msgstr ""
+
 msgid "open nameserver configuration"
 msgstr "ตั้งค่า Nameserver"
 
@@ -11818,6 +11955,9 @@ msgstr ""
 msgid "running"
 msgstr ""
 
+msgid "save"
+msgstr ""
+
 msgid "scan state"
 msgstr "สถานะการค้นหา"
 
@@ -11829,6 +11969,9 @@ msgstr "วินาที"
 
 msgid "select CAId's"
 msgstr "เลือก CAId's"
+
+msgid "select Info..."
+msgstr ""
 
 msgid "select menu entry"
 msgstr "เลือกเมนูจากรายการ"
@@ -11842,6 +11985,10 @@ msgstr ""
 #, fuzzy
 msgid "service off-air"
 msgstr "เพิ่มบริการเข้าสู่รายการโปรด"
+
+#, fuzzy
+msgid "set default"
+msgstr "ค่าเริ่มต้น"
 
 msgid "show DVD main menu"
 msgstr "แสดงเมนูหลักของดีวีดี"
@@ -11925,6 +12072,9 @@ msgstr ""
 msgid "social/spiritual science"
 msgstr ""
 
+msgid "spark"
+msgstr ""
+
 msgid "special events"
 msgstr ""
 
@@ -11979,8 +12129,15 @@ msgstr "ไฟล์ต้นฉบับ"
 msgid "tennis/squash"
 msgstr ""
 
+#, fuzzy
+msgid "terrestrial"
+msgstr "ภาคพื้นดิน"
+
 msgid "testing"
 msgstr "กำลังทำงาน"
+
+msgid "tf7700"
+msgstr ""
 
 msgid "this bouquet is protected by a parental control pin"
 msgstr ""
@@ -12006,6 +12163,9 @@ msgstr ""
 #, fuzzy
 msgid "type"
 msgstr "ประเภทการทดสอบ"
+
+msgid "ufs912"
+msgstr ""
 
 msgid "unavailable"
 msgstr "ไม่สามารถใช้ได้"
@@ -12107,9 +12267,6 @@ msgstr ""
 msgid "with_errors"
 msgstr ""
 
-msgid "xp1000"
-msgstr ""
-
 msgid "yellow"
 msgstr "เหลือง"
 
@@ -12130,6 +12287,3 @@ msgstr ""
 
 msgid "zapped"
 msgstr "เปลี่ยนช่องแล้ว"
-
-msgid "®"
-msgstr ""
