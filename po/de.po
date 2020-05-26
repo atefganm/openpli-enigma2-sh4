@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-25 03:18+0200\n"
-"PO-Revision-Date: 2020-05-25 05:18+0200\n"
+"PO-Revision-Date: 2020-05-26 09:48+0200\n"
 "Last-Translator: kueken\n"
 "Language-Team: kueken\n"
 "Language: de\n"
@@ -574,19 +574,19 @@ msgid ": 0000 - default (disabled)"
 msgstr ": 0000 - Standard (deaktiviert)"
 
 msgid "< Current >"
-msgstr "Aktueller Wert:"
+msgstr "<Aktuell>"
 
 msgid "< Default + Picon >"
 msgstr "< Default + Picon >"
 
 msgid "< Default >"
-msgstr "Standard"
+msgstr "<Standard>"
 
 msgid "< Emergency >"
-msgstr "Notfall"
+msgstr "<Notfall>"
 
 msgid "< Pending restart >"
-msgstr "Neustart"
+msgstr "<Neustart wird ausgeführt>"
 
 msgid "<Current movielist location>"
 msgstr "<Aktuelles Filmlisten-Verzeichnis>"
@@ -3342,7 +3342,7 @@ msgstr "Englisch"
 
 #, python-format
 msgid "Enigma (re)starts: %d\n"
-msgstr "Benutzeroberfläche (Enigma) startet neu: %d\n"
+msgstr "Enigma2  Neustarts: %d\n"
 
 #, python-format
 msgid "Enigma debug level: %d\n"
