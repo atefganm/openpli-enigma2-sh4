@@ -4403,7 +4403,7 @@ msgstr "Brzo"
 
 #
 #, fuzzy
-msgid "Fastscan"
+msgid "FastScan"
 msgstr "Brzo"
 
 #

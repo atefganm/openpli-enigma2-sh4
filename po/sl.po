@@ -4407,7 +4407,7 @@ msgstr "Hitro iskanje"
 
 #
 #, fuzzy
-msgid "Fastscan"
+msgid "FastScan"
 msgstr "Hitro iskanje"
 
 #

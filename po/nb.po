@@ -4236,7 +4236,7 @@ msgid "FastScan"
 msgstr "Fast Scan"
 
 #, fuzzy
-msgid "Fastscan"
+msgid "FastScan"
 msgstr "Fast Scan"
 
 #

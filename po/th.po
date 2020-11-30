@@ -3905,7 +3905,7 @@ msgid "FastScan"
 msgstr "เร็ว"
 
 #, fuzzy
-msgid "Fastscan"
+msgid "FastScan"
 msgstr "เร็ว"
 
 msgid "Favourites"

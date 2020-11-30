@@ -3837,7 +3837,7 @@ msgid "FastScan"
 msgstr "Lezi Légerin"
 
 #, fuzzy
-msgid "Fastscan"
+msgid "FastScan"
 msgstr "Lezi Légerin"
 
 msgid "Favourites"

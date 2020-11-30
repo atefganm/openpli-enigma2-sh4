@@ -3848,7 +3848,7 @@ msgid "FastScan"
 msgstr "Ātrā meklēšana"
 
 #, fuzzy
-msgid "Fastscan"
+msgid "FastScan"
 msgstr "Ātrā meklēšana"
 
 msgid "Favourites"
