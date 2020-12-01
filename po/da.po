@@ -4320,10 +4320,6 @@ msgstr "Hurtig fremad spolnings hastigheder"
 msgid "FastScan"
 msgstr "Hurtig søgning"
 
-#, fuzzy
-msgid "FastScan"
-msgstr "Hurtig søgning"
-
 #
 msgid "Favourites"
 msgstr "Favoritter"
