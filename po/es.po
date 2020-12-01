@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-16 00:59+0200\n"
+"POT-Creation-Date: 2020-12-01 22:53+0100\n"
 "PO-Revision-Date: 2020-03-17 01:28+0100\n"
 "Last-Translator: Jose Juan <jzapater@gmail.com>\n"
 "Language-Team: ANGELODOS  angelo2807@hotmail.com\n"
@@ -958,6 +958,10 @@ msgstr "Añadir a protección de adultos"
 msgid "Add/remove change timer for current event"
 msgstr "Añadir/eliminar temporizador para el programa actual"
 
+#, fuzzy
+msgid "Additional cable of motorized LNB"
+msgstr "Segundo cable de LNB motorizado"
+
 msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move the dish from one satellite to another satellite."
 msgstr "Las opciones de motor adicionales le permiten salir de la hoja de especificaciones de su motor para que pueda calcular cuánto tardará en mover el plato de un satélite a otro satélite."
 
@@ -1085,6 +1089,9 @@ msgstr "Permitir subtítulos para personas con impedimentos auditivos"
 
 msgid "Allow unsupported modes"
 msgstr "Permitir modos no soportados"
+
+msgid "Allows the TV remote to be used to control the receiver."
+msgstr ""
 
 #
 msgid "Alpha"
@@ -1419,6 +1426,10 @@ msgstr "Selección automática del idioma"
 msgid "Auto play blu-ray file"
 msgstr "Reproducir automaticamente archivo blu-ray"
 
+#, fuzzy
+msgid "Auto play last service in radio mode"
+msgstr "Haz un rápido examen de servicio ahora"
+
 #
 msgid "Auto scart switching"
 msgstr "Intercambio a euroconector auto"
@@ -1443,6 +1454,9 @@ msgstr "Marcadores automáticos"
 #
 msgid "Automatic scan"
 msgstr "Búsqueda automática"
+
+msgid "Automatically put the TV in standby whenever the receiver goes into standby or deep standby."
+msgstr ""
 
 msgid "Automatically start timeshift after"
 msgstr "Arranque automáticamente el turno de tiempo después de"
@@ -1551,6 +1565,9 @@ msgstr "Información PID básica"
 
 msgid "Basque"
 msgstr "Euskera"
+
+msgid "Before sending the command to switch the TV to standby, the receiver tests if all the other devices plugged to TV are in standby. If they are not, the 'sourceinactive' command will be sent to the TV instead of the 'standby' command."
+msgstr ""
 
 #
 msgid "Begin time"
@@ -2147,6 +2164,9 @@ msgstr "Ejecución comando:"
 #
 msgid "Command order"
 msgstr "Orden de comando"
+
+msgid "Command the TV to switch to the correct HDMI input when zap timers activate."
+msgstr ""
 
 msgid "Commit info"
 msgstr "Confirmar información"
@@ -2978,6 +2998,9 @@ msgstr "Retraso antes de que comience la repetición de tecla:"
 msgid "Delay before sequence repeat"
 msgstr "Retraso antes de repetir la secuencia"
 
+msgid "Delay between CEC commands when sending a series of commands. Some devices require this delay for correct functioning, usually between 50-150ms."
+msgstr ""
+
 msgid "Delay between diseqc commands"
 msgstr "Retardo entre los comandos diseqc"
 
@@ -3633,11 +3656,12 @@ msgstr "Habilitar EPG de Virgin"
 msgid "Enable auto cable scan"
 msgstr "Búsqueda de cable"
 
-msgid "Enable auto fast scan"
+#, fuzzy
+msgid "Enable auto fastscan"
 msgstr "Habilitar exploración rápida automática"
 
-#, python-format
-msgid "Enable auto fast scan for %s"
+#, fuzzy, python-format
+msgid "Enable auto fastscan for %s"
 msgstr "Habilitar exploración rápida automática para% s"
 
 #
@@ -3668,6 +3692,10 @@ msgstr "Habilitar modo movimiento"
 #
 msgid "Enable multiple bouquets"
 msgstr "Habilitar multiples listas"
+
+#, fuzzy
+msgid "Enable or disable using HDMI-CEC."
+msgstr "Activar HDMI- CEC"
 
 msgid "Enable parental protection"
 msgstr "añadir a protección de adultos"
@@ -4209,9 +4237,6 @@ msgstr "Rápido"
 msgid "Fast DiSEqC"
 msgstr "DiSEqC Rapido"
 
-msgid "Fast Scan"
-msgstr "Exploración rápida"
-
 #
 msgid "Fast epoch"
 msgstr "Época rápida"
@@ -4219,6 +4244,14 @@ msgstr "Época rápida"
 #
 msgid "Fast forward speeds"
 msgstr "Velocidades hacia delante"
+
+#, fuzzy
+msgid "FastScan"
+msgstr "Exploración rápida"
+
+#, fuzzy
+msgid "Fastscan"
+msgstr "Exploración rápida"
 
 #
 msgid "Favourites"
@@ -4816,6 +4849,9 @@ msgstr "Iconos"
 msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
 msgstr "Si está deshabilitado, los caracteres subrayados en los nombres de archivo y directorio no se muestran y se reemplazan con espacios."
 
+msgid "If enabled, a log will be kept of CEC protocol traffic ('hdmicec.log')"
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr "Si está habilitado, los marcadores se actualizarán con la nueva ubicación cuando mueva o copie una grabación."
 
@@ -4833,6 +4869,9 @@ msgstr "Si se establece como ‘Sí’, las pistas de audio solo se reproducen e
 
 msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. This is an old API version that has now been superseded."
 msgstr "Si se establece en ‘sí’, los valores de señal (SNR, etc.) se calcularán a partir de la API V3. Esta es una versión antigua de API que ahora ha sido reemplazada."
+
+msgid "If set to 'yes' the same commands will be sent to the TV for deep standby events, as are sent during regular standby events."
+msgstr ""
 
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
 msgstr "Si utiliza múltiples interruptores no comprometidos, los comandos DiSEqC se deben enviar varias veces. Establezca la cantidad de interruptores no asignados en la cadena menos uno."
@@ -4877,6 +4916,10 @@ msgstr "Ignorar la subred del espacio de nombres DVB-T"
 
 msgid "Ignore conflict"
 msgstr "Ignorar el conflicto"
+
+#, fuzzy
+msgid "Image View On"
+msgstr "Imagen"
 
 #, python-format
 msgid ""
@@ -6165,10 +6208,6 @@ msgstr "No he encontrado redes"
 msgid "No new plugins found"
 msgstr "No se han encontrado nuevos complementos"
 
-#
-msgid "No positioner capable frontend found."
-msgstr "No he encontrado motor capaz"
-
 msgid "No priority"
 msgstr "Sin prioridad"
 
@@ -6206,10 +6245,6 @@ msgstr "No a todo"
 
 msgid "No transparency"
 msgstr "Sin transparencia"
-
-#
-msgid "No tuner is configured for use with a diseqc positioner!"
-msgstr "¡No hay sintonizador configurado para usar con un motor diseqc!"
 
 #
 msgid ""
@@ -6533,6 +6568,9 @@ msgstr "Archivo PGS"
 
 msgid "PGS file"
 msgstr "Archivo PGS"
+
+msgid "PID Filtering"
+msgstr ""
 
 #
 msgid "PIN code needed"
@@ -7229,6 +7267,11 @@ msgid "Press OK to select satellites"
 msgstr "Pulse OK para seleccionar satélites"
 
 #
+#, fuzzy
+msgid "Press OK to select the save location of the log file."
+msgstr "Pulse OK para activar la selección."
+
+#
 msgid "Press OK to select/deselect a CAId."
 msgstr "Pulse OK para seleccionar/deseleccionar un CAId."
 
@@ -7351,6 +7394,10 @@ msgstr "Puerto Rico"
 
 msgid "Purge deleted user bouquets"
 msgstr "Purge deleted user bouquets"
+
+#, fuzzy
+msgid "Put A/V receiver to standby too."
+msgstr "Poner el receptor en modo de espera"
 
 msgid "Put TV in standby"
 msgstr "Coloque el televisor en modo de espera"
@@ -7545,9 +7592,6 @@ msgstr "Region"
 
 msgid "Relative"
 msgstr "Relativo"
-
-msgid "Relevant PIDs routing"
-msgstr "Rutas PID relevantes"
 
 #
 msgid "Reload"
@@ -9056,6 +9100,10 @@ msgstr "Mostrar indicador de registro"
 msgid "Show red LED on VFD"
 msgstr ""
 
+#, fuzzy
+msgid "Show satellites list"
+msgstr "Mostrar lista de servicios"
+
 msgid "Show screensaver"
 msgstr "Mostrar protector de pantalla"
 
@@ -9067,9 +9115,6 @@ msgstr "Mostrar el segundo infobar"
 
 msgid "Show service list"
 msgstr "Mostrar lista de servicios"
-
-msgid "Show service name and event description among each other instead of side by side."
-msgstr ""
 
 msgid "Show service type icons"
 msgstr "Mostrar los iconos del tipo de servicio"
@@ -9101,6 +9146,9 @@ msgstr "Mostrar símbolos en la pantalla"
 #
 msgid "Show the radio player..."
 msgstr "Reproductor de radio..."
+
+msgid "Show the service information on two lines in the channel selection screen. You can choose between the current event description below the channel name, or the current event description next to the channel name, and the next event description on the second line."
+msgstr ""
 
 #
 msgid "Show the tv player..."
@@ -9199,6 +9247,11 @@ msgstr "Uno"
 #
 msgid "Single EPG"
 msgstr "EPG Sencillo"
+
+#
+#, fuzzy
+msgid "Single line mode"
+msgstr "Seleccionar el modo de video"
 
 #
 msgid "Single satellite"
@@ -9336,6 +9389,9 @@ msgstr "Islas Salomón"
 
 msgid "Somalia"
 msgstr "Somalia"
+
+msgid "Some TVs do not wake from standby when they receive the 'Image View On' command. If this is the case try the 'Text View On' command instead."
+msgstr ""
 
 #
 msgid "Some plugins are not available:\n"
@@ -9794,6 +9850,11 @@ msgstr "Dom"
 msgid "Sunday"
 msgstr "Domingo"
 
+msgid ""
+"Sundtek - hardware blind scan in progress.\n"
+"Please wait(3-20 min) for the scan to finish."
+msgstr ""
+
 msgid "Suriname"
 msgstr "Suriname"
 
@@ -10021,6 +10082,9 @@ msgstr "Pruebas de pantalla"
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "Pantallas de prueba que son útiles para ajustar su pantalla"
 
+msgid "Text View On"
+msgstr ""
+
 #
 msgid "Text color"
 msgstr "Color de texto"
@@ -10062,6 +10126,9 @@ msgstr "El código PIN se ha guardado correctamente."
 
 msgid "The PIN codes you entered are different."
 msgstr "El código PIN que ha introducido es diferente."
+
+msgid "The command to wake from standby will be sent multiple times."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -10839,6 +10906,16 @@ msgid "Two"
 msgstr "Dos"
 
 #
+#, fuzzy
+msgid "Two lines"
+msgstr "Mostrar línea de información"
+
+#
+#, fuzzy
+msgid "Two lines and next event"
+msgstr "Ir al siguiente evento"
+
+#
 msgid "Type"
 msgstr "Tipo"
 
@@ -11393,6 +11470,9 @@ msgstr "Volumen"
 msgid "Volume down"
 msgstr "Baja el volumen"
 
+msgid "Volume keys on the receiver remote will control the TV volume."
+msgstr ""
+
 msgid "Volume up"
 msgstr "Sube el volumen"
 
@@ -11436,11 +11516,22 @@ msgstr "Esperando partición"
 msgid "Wake On LAN"
 msgstr "Activación"
 
+msgid "Wake the receiver from standby when selected wake command is sent from the TV."
+msgstr ""
+
 msgid "Wakeup"
 msgstr "Despertarse"
 
+#, fuzzy
+msgid "Wakeup A/V receiver from standby too."
+msgstr "Receptor de despertador desde el modo de espera"
+
 msgid "Wakeup TV from standby"
 msgstr "Despertar TV desde el modo de espera"
+
+#, fuzzy
+msgid "Wakeup command for TV"
+msgstr "Señal de activación de TV"
 
 msgid "Wakeup receiver for start timer"
 msgstr "Receptor de despertador para el temporizador de inicio"
@@ -11565,6 +11656,14 @@ msgstr "Cuando está activado, los botones de flecha alrededor del botón OK seg
 msgid "When enabled the left, right, CH+/-, B+/-, P+/- buttons will follow the 'neutrino' style zap controls instead of the enigma2 style."
 msgstr "Cuando está activado, los botones izquierdo, derecho, CH +/-, B +/-, P +/- seguirán los controles zap del estilo “neutrino” en lugar del estilo enigma2."
 
+#, fuzzy
+msgid "When enabled the receiver will automatically return to standby when the TV is turned off."
+msgstr "Cuando está activado, el receptor utilizará automáticamente la pista de audio que seleccionó anteriormente."
+
+#, fuzzy
+msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
+msgstr "Cuando está activado, el receptor utilizará automáticamente la pista de audio que seleccionó anteriormente."
+
 msgid "When enabled the set top box is able to wakeup on LAN"
 msgstr "Cuando está activado, el decodificador puede activarse en LAN"
 
@@ -11671,6 +11770,10 @@ msgstr "Cuando está habilitado, las corrientes http se descifran en el lado del
 msgid "When enabled, it is possible to leave the movieplayer with exit."
 msgstr "Cuando está activado, es posible salir del movieplayer con exit."
 
+#, fuzzy
+msgid "When enabled, it will automatically play to the last saved radio service when switching to radio mode."
+msgstr "Cuando está activado, el receptor utilizará automáticamente la pista de audio que seleccionó anteriormente."
+
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Cuando está activado, mida el consumo de energía para detectar cuando el rotor deja de girar (cuando está soportado por el sintonizador)."
 
@@ -11753,6 +11856,9 @@ msgstr "Cuando no es cero, una grabación comenzará antes de la hora de inicio 
 msgid "When nonzero, a recording will stop later than the ending time indicated by the EPG."
 msgstr "Cuando no es cero, una grabación se detendrá después de la hora de finalización indicada por el EPG."
 
+msgid "When receiver wakes from standby, it will command the TV to switch to the HDMI input the receiver is connected to."
+msgstr ""
+
 msgid "When selected this allows video modes to be selected even if they are not reported as supported."
 msgstr "Cuando se selecciona, esto permite que se seleccionen los modos de video, incluso si no se informaron como compatibles."
 
@@ -11761,6 +11867,9 @@ msgstr "Cuando el contenido tiene una relación de aspecto de 16: 9, elija si de
 
 msgid "When the content has an aspect ratio of 4:3, choose whether to scale/stretch the picture."
 msgstr "Cuando el contenido tiene una relación de aspecto de 4: 3, elija si desea ampliar / ampliar la imagen."
+
+msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
+msgstr ""
 
 #
 msgid "Where to save temporary timeshift recordings?"
@@ -12200,6 +12309,9 @@ msgstr "Activo"
 
 msgid "actual time only"
 msgstr "solo tiempo real"
+
+msgid "additional cable of rotor"
+msgstr ""
 
 msgid "adult movie/drama"
 msgstr "Película para adultos / drama"
@@ -12998,6 +13110,10 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "romance"
+
+#, fuzzy
+msgid "rotor"
+msgstr "Rotor: "
 
 msgid "running"
 msgstr "corriendo"

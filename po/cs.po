@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-16 00:59+0200\n"
+"POT-Creation-Date: 2020-12-01 22:53+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims@openpli.org>\n"
@@ -976,6 +976,11 @@ msgstr "Přidat do rodičovské ochrany"
 msgid "Add/remove change timer for current event"
 msgstr "Přidat/odstranit časovač pro aktuální událost"
 
+#
+#, fuzzy
+msgid "Additional cable of motorized LNB"
+msgstr "Druhý výstup z natáčeného LNB"
+
 msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move the dish from one satellite to another satellite."
 msgstr "Další možnosti motoru umožňují zadat podrobnosti z dokumentace k Vašemu motoru, takže enigma dokáže zjistit, jak dlouho bude trvat přechod z jednoho satelitu na jiný satelit."
 
@@ -1111,6 +1116,9 @@ msgstr "Povolit titulky pro sluchově postižené"
 
 msgid "Allow unsupported modes"
 msgstr "Povolit nepodporované režimy"
+
+msgid "Allows the TV remote to be used to control the receiver."
+msgstr ""
 
 #
 msgid "Alpha"
@@ -1460,6 +1468,11 @@ msgid "Auto play blu-ray file"
 msgstr "Automaticky přehrávat blue-ray soubor"
 
 #
+#, fuzzy
+msgid "Auto play last service in radio mode"
+msgstr "Proveďte rychlé vyhledání programů"
+
+#
 msgid "Auto scart switching"
 msgstr "Automatické přepínání scart"
 
@@ -1483,6 +1496,9 @@ msgstr "Automatické záložky"
 #
 msgid "Automatic scan"
 msgstr "Automatické prohledávání"
+
+msgid "Automatically put the TV in standby whenever the receiver goes into standby or deep standby."
+msgstr ""
 
 msgid "Automatically start timeshift after"
 msgstr "Automaticky spustit timeshift po"
@@ -1594,6 +1610,9 @@ msgstr "Základní PID info"
 #
 msgid "Basque"
 msgstr "Baskicky"
+
+msgid "Before sending the command to switch the TV to standby, the receiver tests if all the other devices plugged to TV are in standby. If they are not, the 'sourceinactive' command will be sent to the TV instead of the 'standby' command."
+msgstr ""
 
 #
 msgid "Begin time"
@@ -2208,6 +2227,9 @@ msgstr "Provádění příkazu..."
 #
 msgid "Command order"
 msgstr "Pořadí příkazů"
+
+msgid "Command the TV to switch to the correct HDMI input when zap timers activate."
+msgstr ""
 
 msgid "Commit info"
 msgstr "Commit info"
@@ -3055,6 +3077,9 @@ msgstr "Zpoždění před opakováním:"
 msgid "Delay before sequence repeat"
 msgstr "Zpoždění mezi opakováním sekvence"
 
+msgid "Delay between CEC commands when sending a series of commands. Some devices require this delay for correct functioning, usually between 50-150ms."
+msgstr ""
+
 msgid "Delay between diseqc commands"
 msgstr "Zpoždění mezi diseqc povely"
 
@@ -3745,11 +3770,12 @@ msgstr "Povolit Virgin EPG"
 msgid "Enable auto cable scan"
 msgstr "Povolit automatické prohledání kabelu"
 
-msgid "Enable auto fast scan"
+#, fuzzy
+msgid "Enable auto fastscan"
 msgstr "Povolit automatický Fast scan"
 
-#, python-format
-msgid "Enable auto fast scan for %s"
+#, fuzzy, python-format
+msgid "Enable auto fastscan for %s"
 msgstr "Povolit automatický Fast scan pro %s"
 
 #
@@ -3779,6 +3805,11 @@ msgstr "Povolit přesun"
 #
 msgid "Enable multiple bouquets"
 msgstr "Povolit vícenásobné přehledy"
+
+#
+#, fuzzy
+msgid "Enable or disable using HDMI-CEC."
+msgstr "Povolit HDMI-CEC"
 
 msgid "Enable parental protection"
 msgstr "Povolit rodičovskou ochranu"
@@ -4330,16 +4361,22 @@ msgid "Fast DiSEqC"
 msgstr "Rychlý DiSEqC"
 
 #
-msgid "Fast Scan"
-msgstr "Fast Scan"
-
-#
 msgid "Fast epoch"
 msgstr "Rychle v intervalu"
 
 #
 msgid "Fast forward speeds"
 msgstr "Rychlosti přetáčení vpřed"
+
+#
+#, fuzzy
+msgid "FastScan"
+msgstr "Fast Scan"
+
+#
+#, fuzzy
+msgid "Fastscan"
+msgstr "Fast Scan"
 
 #
 msgid "Favourites"
@@ -4949,6 +4986,9 @@ msgstr "Ikony"
 msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
 msgstr "Jestliže je zakázáno, podtržítka v názvech souborů a adresářů nejsou zobrazována a jsou nahrazena mezerami."
 
+msgid "If enabled, a log will be kept of CEC protocol traffic ('hdmicec.log')"
+msgstr ""
+
 #
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr "Jestliže je povoleno, funkce Kopírovat/Přemístit budou ukládat cílový adresář do záložek."
@@ -4970,6 +5010,9 @@ msgstr "Jestliže je povoleno, audio soubory budou přehrávány v režimu sezna
 
 msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. This is an old API version that has now been superseded."
 msgstr "Pokud je nastaveno 'Ano', hodnoty signálu (SNR, atd.) budou počítány z API V3. To je stará verze rozhraní API, která byla již nahrazena."
+
+msgid "If set to 'yes' the same commands will be sent to the TV for deep standby events, as are sent during regular standby events."
+msgstr ""
 
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
 msgstr "Pokud používáte více uncommited přepínačů, musí být příkazy DiSEqC odesílány několikrát. Nastavte počet uncommited přepínačů v řetězci zmenšený o jeden."
@@ -5014,6 +5057,9 @@ msgstr "Ignorovat DVB-T namespace podsítě"
 
 msgid "Ignore conflict"
 msgstr "Ignorovat konflikt"
+
+msgid "Image View On"
+msgstr ""
 
 #, python-format
 msgid ""
@@ -6337,10 +6383,6 @@ msgstr "Žádné sítě nenalezeny"
 msgid "No new plugins found"
 msgstr "Žádný nový plugin nenalezen."
 
-#
-msgid "No positioner capable frontend found."
-msgstr "Nebyl nalezen žádný vhodný pozicioner."
-
 msgid "No priority"
 msgstr "Žádná priorita"
 
@@ -6380,10 +6422,6 @@ msgstr "Ne pro všechny"
 #
 msgid "No transparency"
 msgstr "Neprůhledné"
-
-#
-msgid "No tuner is configured for use with a diseqc positioner!"
-msgstr "Žádný tuner není nakonfigurován pro používání s diseqc pozicionerem!"
 
 #
 msgid ""
@@ -6718,6 +6756,9 @@ msgstr "PGS soubor"
 
 msgid "PGS file"
 msgstr "PGS soubor"
+
+msgid "PID Filtering"
+msgstr ""
 
 #
 msgid "PIN code needed"
@@ -7440,6 +7481,11 @@ msgid "Press OK to select satellites"
 msgstr "Stiskněte OK k vybrání satelitů."
 
 #
+#, fuzzy
+msgid "Press OK to select the save location of the log file."
+msgstr "Stiskněte OK pro změnu označení."
+
+#
 msgid "Press OK to select/deselect a CAId."
 msgstr "Stiskněte OK pro vybrání/odebrání CAId"
 
@@ -7566,6 +7612,10 @@ msgstr "Portoriko"
 
 msgid "Purge deleted user bouquets"
 msgstr "Odstranit smazané přehledy"
+
+#, fuzzy
+msgid "Put A/V receiver to standby too."
+msgstr "Přepínat A/V receiver do standby"
 
 msgid "Put TV in standby"
 msgstr "Přepínat TV do standby"
@@ -7766,9 +7816,6 @@ msgstr "Region"
 #
 msgid "Relative"
 msgstr "Relativní"
-
-msgid "Relevant PIDs routing"
-msgstr "Relevantní směrování PID"
 
 #
 msgid "Reload"
@@ -9326,6 +9373,10 @@ msgstr "Zobrazovat indikátor záznamu"
 msgid "Show red LED on VFD"
 msgstr ""
 
+#, fuzzy
+msgid "Show satellites list"
+msgstr "Přehled programů"
+
 msgid "Show screensaver"
 msgstr "Zobrazovat spořič obrazovky"
 
@@ -9338,9 +9389,6 @@ msgstr "Zobrazovat druhý infobar"
 
 msgid "Show service list"
 msgstr "Přehled programů"
-
-msgid "Show service name and event description among each other instead of side by side."
-msgstr ""
 
 msgid "Show service type icons"
 msgstr "Zobrazovat ikony typu kanálu"
@@ -9372,6 +9420,9 @@ msgstr "Zobrazovat symboly na displeji"
 #
 msgid "Show the radio player..."
 msgstr "Zobrazit přehrávač rádií"
+
+msgid "Show the service information on two lines in the channel selection screen. You can choose between the current event description below the channel name, or the current event description next to the channel name, and the next event description on the second line."
+msgstr ""
 
 #
 msgid "Show the tv player..."
@@ -9474,6 +9525,11 @@ msgstr "Jeden"
 #
 msgid "Single EPG"
 msgstr "EPG programu"
+
+#
+#, fuzzy
+msgid "Single line mode"
+msgstr "Zvolte video mód"
 
 #
 msgid "Single satellite"
@@ -9614,6 +9670,9 @@ msgstr "Šalamounovy ostrovy"
 
 msgid "Somalia"
 msgstr "Somálsko"
+
+msgid "Some TVs do not wake from standby when they receive the 'Image View On' command. If this is the case try the 'Text View On' command instead."
+msgstr ""
 
 #
 msgid "Some plugins are not available:\n"
@@ -10090,6 +10149,11 @@ msgstr "Ne"
 msgid "Sunday"
 msgstr "Neděle"
 
+msgid ""
+"Sundtek - hardware blind scan in progress.\n"
+"Please wait(3-20 min) for the scan to finish."
+msgstr ""
+
 msgid "Suriname"
 msgstr "Surinam"
 
@@ -10313,6 +10377,9 @@ msgstr "Testovací obrazce"
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "Testovací obrazce pomáhají doladit obrazovku"
 
+msgid "Text View On"
+msgstr ""
+
 #
 msgid "Text color"
 msgstr "Barva textu"
@@ -10353,6 +10420,9 @@ msgstr "PIN kód byl úspěšně uložen."
 
 msgid "The PIN codes you entered are different."
 msgstr "PIN kód, který jste zadali, je odlišný."
+
+msgid "The command to wake from standby will be sent multiple times."
+msgstr ""
 
 #
 #, python-format
@@ -11128,6 +11198,15 @@ msgid "Two"
 msgstr "Dva"
 
 #
+#, fuzzy
+msgid "Two lines"
+msgstr "Zobrazovat informační řádek"
+
+#, fuzzy
+msgid "Two lines and next event"
+msgstr "Přejít na další událost"
+
+#
 msgid "Type"
 msgstr "Typ"
 
@@ -11698,6 +11777,9 @@ msgstr "Hlasitost"
 msgid "Volume down"
 msgstr "Zeslabit zvuk"
 
+msgid "Volume keys on the receiver remote will control the TV volume."
+msgstr ""
+
 msgid "Volume up"
 msgstr "Zasílit zvuk"
 
@@ -11741,11 +11823,22 @@ msgstr "Čeká se na oddíl"
 msgid "Wake On LAN"
 msgstr "Wake On LAN"
 
+msgid "Wake the receiver from standby when selected wake command is sent from the TV."
+msgstr ""
+
 msgid "Wakeup"
 msgstr "Probudit"
 
+#, fuzzy
+msgid "Wakeup A/V receiver from standby too."
+msgstr "Probouzet A/V receiver ze standby"
+
 msgid "Wakeup TV from standby"
 msgstr "Probouzet TV ze standby"
+
+#, fuzzy
+msgid "Wakeup command for TV"
+msgstr "Signál probuzení z TV"
 
 msgid "Wakeup receiver for start timer"
 msgstr "Probouzet přijímač pro spuštění časovače"
@@ -11869,6 +11962,14 @@ msgstr "Jestliže je povoleno, pak šipky okolo tlačítka OK budou používat '
 msgid "When enabled the left, right, CH+/-, B+/-, P+/- buttons will follow the 'neutrino' style zap controls instead of the enigma2 style."
 msgstr "Jestliže je povoleno, pak tlačítka vlevo, vpravo, CH+/-, B+/-, P+/- budou používat 'neutrino' styl pro přepínání namísto stylu enigma2."
 
+#, fuzzy
+msgid "When enabled the receiver will automatically return to standby when the TV is turned off."
+msgstr "Jestliže je povoleno, bude přijímač automaticky používat zvukovou stopu, která byla vybrána dříve."
+
+#, fuzzy
+msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
+msgstr "Jestliže je povoleno, bude přijímač automaticky používat zvukovou stopu, která byla vybrána dříve."
+
 msgid "When enabled the set top box is able to wakeup on LAN"
 msgstr "Jestliže je zapnuto, pak je možné přijímač probouzet v síti LAN pomocí Magic packetu."
 
@@ -11977,6 +12078,10 @@ msgstr "Při povolení budou http streamy dekódovány na straně serveru. Klien
 msgid "When enabled, it is possible to leave the movieplayer with exit."
 msgstr "Jestliže je povoleno, je možné opouštět movieplayer pomocí Exit."
 
+#, fuzzy
+msgid "When enabled, it will automatically play to the last saved radio service when switching to radio mode."
+msgstr "Jestliže je povoleno, bude přijímač automaticky používat zvukovou stopu, která byla vybrána dříve."
+
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Pokud je povoleno, přijímač se bude snažit měřením spotřeby proudu určit, kdy motor ukončí natáčení (pokud je podporováno tunerem)."
 
@@ -12060,6 +12165,9 @@ msgstr "Při nenulové hodnotě nahrávání začne dříve, než je čas začá
 msgid "When nonzero, a recording will stop later than the ending time indicated by the EPG."
 msgstr "Při nenulové hodnotě nahrávání skončí později, než je čas konce uvedený v EPG."
 
+msgid "When receiver wakes from standby, it will command the TV to switch to the HDMI input the receiver is connected to."
+msgstr ""
+
 msgid "When selected this allows video modes to be selected even if they are not reported as supported."
 msgstr "Umožňuje zvolit módy videa i přesto, že nejsou označeny jako podporované."
 
@@ -12068,6 +12176,9 @@ msgstr "Pro obsah s poměrem stran 16:9 zvolte, zda chcete změnit velikost/rozt
 
 msgid "When the content has an aspect ratio of 4:3, choose whether to scale/stretch the picture."
 msgstr "Pro obsah s poměrem stran 4:3 zvolte, zda chcete změnit velikost/roztáhnout obraz."
+
+msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
+msgstr ""
 
 #
 msgid "Where to save temporary timeshift recordings?"
@@ -12522,6 +12633,9 @@ msgstr "aktivní"
 
 msgid "actual time only"
 msgstr "Pouze aktuální čas"
+
+msgid "additional cable of rotor"
+msgstr ""
 
 msgid "adult movie/drama"
 msgstr "pro dospělé/drama"
@@ -13335,6 +13449,10 @@ msgstr "rock/pop"
 
 msgid "romance"
 msgstr "romance"
+
+#, fuzzy
+msgid "rotor"
+msgstr "Rotor: "
 
 msgid "running"
 msgstr "probíhá"

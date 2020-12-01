@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-16 00:59+0200\n"
+"POT-Creation-Date: 2020-12-01 22:53+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: OpenPLi translators <tech@openpli.org>\n"
 "Language-Team: PLiteam <translators@openpli.org>\n"
@@ -851,6 +851,10 @@ msgstr "Zender op kinderslot zetten"
 msgid "Add/remove change timer for current event"
 msgstr "Voeg een timerwijziging voor het huidige programma toe of verwijder deze"
 
+#, fuzzy
+msgid "Additional cable of motorized LNB"
+msgstr "Tweede kabel van een draaibare LNB"
+
 msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move the dish from one satellite to another satellite."
 msgstr "Met aanvullende motoropties kunt u details van de specificaties uw motor invoeren waarmee Enigma kan bepalen hoe lang het duurt om de schotel van de ene naar de andere satelliet te verplaatsen."
 
@@ -967,6 +971,9 @@ msgstr "Sta de ondertiteling voor doven en slechthorenden toe"
 
 msgid "Allow unsupported modes"
 msgstr "Sta niet ondersteunde video modi toe"
+
+msgid "Allows the TV remote to be used to control the receiver."
+msgstr ""
 
 msgid "Alpha"
 msgstr "Transparantie"
@@ -1273,6 +1280,10 @@ msgstr "Automatische taalkeuzeselectie"
 msgid "Auto play blu-ray file"
 msgstr "Speel blu-ray bestand automatisch af"
 
+#, fuzzy
+msgid "Auto play last service in radio mode"
+msgstr "Voer een provider gerelateerde fastscan uit."
+
 msgid "Auto scart switching"
 msgstr "Automatisch scart schakelen"
 
@@ -1293,6 +1304,9 @@ msgstr "Automatische bladwijzers"
 
 msgid "Automatic scan"
 msgstr "Automatisch zoeken"
+
+msgid "Automatically put the TV in standby whenever the receiver goes into standby or deep standby."
+msgstr ""
 
 msgid "Automatically start timeshift after"
 msgstr "Timeshift automatisch starten na .. seconden"
@@ -1387,6 +1401,9 @@ msgstr "Basis PID informatie"
 
 msgid "Basque"
 msgstr "Baskisch"
+
+msgid "Before sending the command to switch the TV to standby, the receiver tests if all the other devices plugged to TV are in standby. If they are not, the 'sourceinactive' command will be sent to the TV instead of the 'standby' command."
+msgstr ""
 
 msgid "Begin time"
 msgstr "Starttijd"
@@ -1944,6 +1961,9 @@ msgstr "Commando uitvoeren..."
 
 msgid "Command order"
 msgstr "Commando volgorde"
+
+msgid "Command the TV to switch to the correct HDMI input when zap timers activate."
+msgstr ""
 
 msgid "Commit info"
 msgstr "Commit informatie"
@@ -2860,6 +2880,9 @@ msgstr "Wachttijd voor toetsherhaling begint:"
 msgid "Delay before sequence repeat"
 msgstr "De vertraging voordat de cyclus wordt herhaald"
 
+msgid "Delay between CEC commands when sending a series of commands. Some devices require this delay for correct functioning, usually between 50-150ms."
+msgstr ""
+
 msgid "Delay between diseqc commands"
 msgstr "De vertraging tussen de diseqc commando's"
 
@@ -3451,11 +3474,12 @@ msgstr "Virgin EPG inschakelen"
 msgid "Enable auto cable scan"
 msgstr "Activeer de automatische kabelscan"
 
-msgid "Enable auto fast scan"
+#, fuzzy
+msgid "Enable auto fastscan"
 msgstr "Wilt u de automatische Fastscan activeren"
 
-#, python-format
-msgid "Enable auto fast scan for %s"
+#, fuzzy, python-format
+msgid "Enable auto fastscan for %s"
 msgstr "Activeer automatische fastscan voor %s"
 
 msgid "Enable bouquet edit"
@@ -3481,6 +3505,10 @@ msgstr "Activeer de verplaatsmodus"
 
 msgid "Enable multiple bouquets"
 msgstr "Zenders in meerdere bouquetten toestaan"
+
+#, fuzzy
+msgid "Enable or disable using HDMI-CEC."
+msgstr "HDMI-CEC inschakelen"
 
 msgid "Enable parental protection"
 msgstr "Kinderslot inschakelen"
@@ -3979,14 +4007,19 @@ msgstr "Snel"
 msgid "Fast DiSEqC"
 msgstr "Snelle diseqc"
 
-msgid "Fast Scan"
-msgstr "Fast Scan"
-
 msgid "Fast epoch"
 msgstr "Snel spoelen"
 
 msgid "Fast forward speeds"
 msgstr "Vooruitspoelsnelheden"
+
+#, fuzzy
+msgid "FastScan"
+msgstr "Fast Scan"
+
+#, fuzzy
+msgid "Fastscan"
+msgstr "Fast Scan"
 
 msgid "Favourites"
 msgstr "Favorieten"
@@ -4533,6 +4566,9 @@ msgstr "Iconen"
 msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
 msgstr "Indien niet geactiveerd, dan worden onderstreepte tekens in bestandsnamen of namen vervangen door spaties."
 
+msgid "If enabled, a log will be kept of CEC protocol traffic ('hdmicec.log')"
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr "Indien geactiveerd dan zullen de markeringen ook geactualiseerd worden in de nieuwe locatie na verplaatsen of kopiëren van een opname."
 
@@ -4550,6 +4586,9 @@ msgstr "Indien gekozen wordt voor 'Ja', dan zal muziek afgespeeld worden in de '
 
 msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. This is an old API version that has now been superseded."
 msgstr "Indien geactiveerd zullen de waardes (SNR, etc) worden berekend vanaf de API V3. Dit is de oude API versie die nu is vervangen."
+
+msgid "If set to 'yes' the same commands will be sent to the TV for deep standby events, as are sent during regular standby events."
+msgstr ""
 
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
 msgstr "Indien je meerdere uncommitted switches gebruikt dienen de commando's meerdere malen gegeven te worden. Stel de betreffende waarde in op het aantal switches min 1."
@@ -4596,6 +4635,10 @@ msgstr "Negeer DVB-T namespace sub-netwerk"
 
 msgid "Ignore conflict"
 msgstr "Conflict negeren"
+
+#, fuzzy
+msgid "Image View On"
+msgstr "Image: "
 
 #, python-format
 msgid ""
@@ -5729,9 +5772,6 @@ msgstr "Geen netwerken gevonden"
 msgid "No new plugins found"
 msgstr "Geen nieuwe plugins gevonden"
 
-msgid "No positioner capable frontend found."
-msgstr "Geen geschikte positioner gevonden."
-
 msgid "No priority"
 msgstr "Geen prioriteit"
 
@@ -5764,9 +5804,6 @@ msgstr "Nee op alles"
 
 msgid "No transparency"
 msgstr "Geen transparantie"
-
-msgid "No tuner is configured for use with a diseqc positioner!"
-msgstr "Er is geen tuner ingesteld voor gebruik van een diseqc motor!"
 
 msgid ""
 "No tuner is enabled!\n"
@@ -6069,6 +6106,9 @@ msgstr "PGS bestand"
 
 msgid "PGS file"
 msgstr "PGS bestand"
+
+msgid "PID Filtering"
+msgstr ""
 
 msgid "PIN code needed"
 msgstr "Pincode nodig"
@@ -6694,6 +6734,10 @@ msgstr "Druk op Ok om een zender te kiezen."
 msgid "Press OK to select satellites"
 msgstr "Druk Ok om de satellieten te selecteren"
 
+#, fuzzy
+msgid "Press OK to select the save location of the log file."
+msgstr "Druk op Ok om te switchen tussen actief/inactief."
+
 msgid "Press OK to select/deselect a CAId."
 msgstr "Druk op Ok om de CAId aan/uit te zetten."
 
@@ -6805,6 +6849,10 @@ msgstr "Puerto Rico"
 
 msgid "Purge deleted user bouquets"
 msgstr "Ruim gewiste gebruikersboeket(ten) op"
+
+#, fuzzy
+msgid "Put A/V receiver to standby too."
+msgstr "Schakel de ontvanger naar "
 
 msgid "Put TV in standby"
 msgstr "Zet de TV in stand-by"
@@ -6972,9 +7020,6 @@ msgstr "Regio"
 
 msgid "Relative"
 msgstr "Relatief"
-
-msgid "Relevant PIDs routing"
-msgstr "Relevante PIDS routering"
 
 msgid "Reload"
 msgstr "Herlaad"
@@ -8340,6 +8385,10 @@ msgstr "Toon opname indicatie"
 msgid "Show red LED on VFD"
 msgstr ""
 
+#, fuzzy
+msgid "Show satellites list"
+msgstr "Toon de zenderlijst"
+
 msgid "Show screensaver"
 msgstr "De screensaver tonen na ... minuten"
 
@@ -8351,9 +8400,6 @@ msgstr "Uitgebreid informatiescherm weergeven"
 
 msgid "Show service list"
 msgstr "Toon de zenderlijst"
-
-msgid "Show service name and event description among each other instead of side by side."
-msgstr ""
 
 msgid "Show service type icons"
 msgstr "Weergaveopties van het type tuner"
@@ -8384,6 +8430,9 @@ msgstr "Toon symbolen op het display"
 
 msgid "Show the radio player..."
 msgstr "Radio weergave modus..."
+
+msgid "Show the service information on two lines in the channel selection screen. You can choose between the current event description below the channel name, or the current event description next to the channel name, and the next event description on the second line."
+msgstr ""
 
 msgid "Show the tv player..."
 msgstr "TV weergave modus..."
@@ -8468,6 +8517,10 @@ msgstr "Enkel"
 
 msgid "Single EPG"
 msgstr "Zender EPG"
+
+#, fuzzy
+msgid "Single line mode"
+msgstr "Selecteer videomodus"
 
 msgid "Single satellite"
 msgstr "Eén satelliet"
@@ -8590,6 +8643,9 @@ msgstr "Solomon eilanden"
 
 msgid "Somalia"
 msgstr "Somalië"
+
+msgid "Some TVs do not wake from standby when they receive the 'Image View On' command. If this is the case try the 'Text View On' command instead."
+msgstr ""
 
 msgid "Some plugins are not available:\n"
 msgstr "Enkele plugins zijn niet beschikbaar:\n"
@@ -9004,6 +9060,11 @@ msgstr "Zo"
 msgid "Sunday"
 msgstr "Zondag"
 
+msgid ""
+"Sundtek - hardware blind scan in progress.\n"
+"Please wait(3-20 min) for the scan to finish."
+msgstr ""
+
 msgid "Suriname"
 msgstr "Suriname"
 
@@ -9206,6 +9267,9 @@ msgstr "Testschermen"
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "Testschermen waarmee u de weergave van uw scherm kunt optimaliseren"
 
+msgid "Text View On"
+msgstr ""
+
 msgid "Text color"
 msgstr "Tekstkleur"
 
@@ -9246,6 +9310,9 @@ msgstr "Pincode met succes opgeslagen."
 
 msgid "The PIN codes you entered are different."
 msgstr "De ingevoerde pincodes zijn niet gelijk."
+
+msgid "The command to wake from standby will be sent multiple times."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -9954,6 +10021,14 @@ msgstr "Tuvalu"
 msgid "Two"
 msgstr "Twee"
 
+#, fuzzy
+msgid "Two lines"
+msgstr "Toon de infolijn"
+
+#, fuzzy
+msgid "Two lines and next event"
+msgstr "Ga naar de volgende EPG info"
+
 msgid "Type"
 msgstr "Type"
 
@@ -10455,6 +10530,9 @@ msgstr "Volume"
 msgid "Volume down"
 msgstr "Volume -"
 
+msgid "Volume keys on the receiver remote will control the TV volume."
+msgstr ""
+
 msgid "Volume up"
 msgstr "Volume +"
 
@@ -10491,11 +10569,22 @@ msgstr "Wacht op een verdeelpunt"
 msgid "Wake On LAN"
 msgstr "Wake On LAN "
 
+msgid "Wake the receiver from standby when selected wake command is sent from the TV."
+msgstr ""
+
 msgid "Wakeup"
 msgstr "Actief worden"
 
+#, fuzzy
+msgid "Wakeup A/V receiver from standby too."
+msgstr "Activeer de ontvanger vanuit stand-by"
+
 msgid "Wakeup TV from standby"
 msgstr "Activeer de TV vanuit stand-by"
+
+#, fuzzy
+msgid "Wakeup command for TV"
+msgstr "Activeer het signaal van TV met "
 
 msgid "Wakeup receiver for start timer"
 msgstr "Haal de ontvanger uit  om een timeropname te starten"
@@ -10621,6 +10710,14 @@ msgstr "Indien geactiveerd, dan functioneren de toetsen rondom de Ok toets zoals
 msgid "When enabled the left, right, CH+/-, B+/-, P+/- buttons will follow the 'neutrino' style zap controls instead of the enigma2 style."
 msgstr "Indien geactiveerd, dan werken de links, rechts, CH +/-, B +/-, P +/- toetsen in de 'neutrino stijl' in plaats van de 'enigma2 stijl'."
 
+#, fuzzy
+msgid "When enabled the receiver will automatically return to standby when the TV is turned off."
+msgstr "Indien geactiveerd, dan zal de tuner automatisch het eerder geselecteerde audiospoor gebruiken."
+
+#, fuzzy
+msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
+msgstr "Indien geactiveerd, dan zal de tuner automatisch het eerder geselecteerde audiospoor gebruiken."
+
 msgid "When enabled the set top box is able to wakeup on LAN"
 msgstr "Indien geactiveerd, dan is de ontvanger in staat om gebruik te maken van de 'WOL functie'. Hiermee kunt u via het netwerk contact met de ontvanger maken, waarna deze zal opstarten vanuit 'deep '."
 
@@ -10732,6 +10829,10 @@ msgstr ""
 "\n"
 "U kunt kiezen uit, niet mogelijk, met popup of zonder popup."
 
+#, fuzzy
+msgid "When enabled, it will automatically play to the last saved radio service when switching to radio mode."
+msgstr "Indien geactiveerd, dan zal de tuner automatisch het eerder geselecteerde audiospoor gebruiken."
+
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Indien geactiveerd, dan wordt het door de rotor opgenomen vermogen gedetecteerd indien deze stopt met draaien. (indien door de tuner ondersteund)"
 
@@ -10825,6 +10926,9 @@ msgstr ""
 "\n"
 "U kunt hier zelf een waarde ingeven."
 
+msgid "When receiver wakes from standby, it will command the TV to switch to the HDMI input the receiver is connected to."
+msgstr ""
+
 msgid "When selected this allows video modes to be selected even if they are not reported as supported."
 msgstr "Indien geactiveerd, dan wordt het mogelijk om een video-modus te kiezen waarvan niet bekend is of deze ondersteund wordt."
 
@@ -10839,6 +10943,9 @@ msgstr ""
 "Indien het beeld een beeldverhouding heeft van 4:3, kies dan of u het beeld geschaald of uitgerekt wenst te zien.\n"
 "\n"
 "U kunt kiezen uit pillarbox, schalen, automatisch, non liniair of pan & scan."
+
+msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
+msgstr ""
 
 msgid "Where to save temporary timeshift recordings?"
 msgstr "Waar wilt u de tijdelijke timeshift opnames opslaan?"
@@ -11249,6 +11356,9 @@ msgstr "actief"
 
 msgid "actual time only"
 msgstr "enkel de actuele tijd"
+
+msgid "additional cable of rotor"
+msgstr ""
 
 msgid "adult movie/drama"
 msgstr "Erotiek/Drama"
@@ -11948,6 +12058,10 @@ msgstr "Rock/Pop"
 
 msgid "romance"
 msgstr "Romantiek"
+
+#, fuzzy
+msgid "rotor"
+msgstr "Rotor:"
 
 msgid "running"
 msgstr "actief"

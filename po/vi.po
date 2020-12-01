@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-16 00:59+0200\n"
+"POT-Creation-Date: 2020-12-01 22:53+0100\n"
 "PO-Revision-Date: 2019-11-19 08:58+0700\n"
 "Last-Translator: krong\n"
 "Language-Team: none\n"
@@ -853,6 +853,10 @@ msgstr "Thêm vào sự bảo vệ của cha mẹ"
 msgid "Add/remove change timer for current event"
 msgstr "Thêm / xóa bộ đếm thời gian thay đổi cho sự kiện hiện tại"
 
+#, fuzzy
+msgid "Additional cable of motorized LNB"
+msgstr "Cáp thứ hai của LNB cơ giới"
+
 msgid "Additional motor options allow you to enter details from your motor's spec sheet so enigma can work out how long it will take to move the dish from one satellite to another satellite."
 msgstr "Tùy chọn động cơ bổ sung cho phép bạn nhập chi tiết từ bảng thông số kỹ thuật của động cơ để enigma có thể biết được sẽ mất bao lâu để di chuyển món ăn từ vệ tinh này sang vệ tinh khác."
 
@@ -969,6 +973,9 @@ msgstr "Cho phép phụ đề cho người khiếm thính"
 
 msgid "Allow unsupported modes"
 msgstr "Cho phép các chế độ không được hỗ trợ"
+
+msgid "Allows the TV remote to be used to control the receiver."
+msgstr ""
 
 msgid "Alpha"
 msgstr "Alpha"
@@ -1270,6 +1277,10 @@ msgstr "Chọn ngôn ngữ tự động"
 msgid "Auto play blu-ray file"
 msgstr "Tự động phát tệp blu-ray"
 
+#, fuzzy
+msgid "Auto play last service in radio mode"
+msgstr "Thực hiện quét dịch vụ nhanh ngay bây giờ"
+
 msgid "Auto scart switching"
 msgstr "Tự động chuyển mạch"
 
@@ -1290,6 +1301,9 @@ msgstr "Đánh dấu tự động"
 
 msgid "Automatic scan"
 msgstr "Quét tự động"
+
+msgid "Automatically put the TV in standby whenever the receiver goes into standby or deep standby."
+msgstr ""
 
 msgid "Automatically start timeshift after"
 msgstr "Tự động bắt đầu timeshift sau"
@@ -1384,6 +1398,9 @@ msgstr "Thông tin cơ bản về PID"
 
 msgid "Basque"
 msgstr "Basque"
+
+msgid "Before sending the command to switch the TV to standby, the receiver tests if all the other devices plugged to TV are in standby. If they are not, the 'sourceinactive' command will be sent to the TV instead of the 'standby' command."
+msgstr ""
 
 msgid "Begin time"
 msgstr "Thời gian bắt đầu"
@@ -1932,6 +1949,9 @@ msgstr "Thực hiện lệnh .."
 
 msgid "Command order"
 msgstr "Lệnh"
+
+msgid "Command the TV to switch to the correct HDMI input when zap timers activate."
+msgstr ""
 
 msgid "Commit info"
 msgstr "Thông tin cam kết"
@@ -2684,6 +2704,9 @@ msgstr "Trì hoãn trước khi lặp lại khóa bắt đầu:"
 msgid "Delay before sequence repeat"
 msgstr "Trì hoãn trước khi lặp lại trình tự"
 
+msgid "Delay between CEC commands when sending a series of commands. Some devices require this delay for correct functioning, usually between 50-150ms."
+msgstr ""
+
 msgid "Delay between diseqc commands"
 msgstr "Độ trễ giữa các lệnh diseqc"
 
@@ -3261,11 +3284,12 @@ msgstr "Kích hoạt Virgin EPG"
 msgid "Enable auto cable scan"
 msgstr "Cho phép quét cáp tự động"
 
-msgid "Enable auto fast scan"
+#, fuzzy
+msgid "Enable auto fastscan"
 msgstr "Cho phép tự động quét nhanh"
 
-#, python-format
-msgid "Enable auto fast scan for %s"
+#, fuzzy, python-format
+msgid "Enable auto fastscan for %s"
 msgstr "Cho phép tự động quét nhanh cho%s"
 
 msgid "Enable bouquet edit"
@@ -3291,6 +3315,10 @@ msgstr "Cho phép chế độ di chuyển"
 
 msgid "Enable multiple bouquets"
 msgstr "Cho phép nhiều gói kênh"
+
+#, fuzzy
+msgid "Enable or disable using HDMI-CEC."
+msgstr "Kích hoạt HDMI-CEC"
 
 msgid "Enable parental protection"
 msgstr "Cho phép bảo vệ cha mẹ"
@@ -3787,14 +3815,19 @@ msgstr "Nhanh"
 msgid "Fast DiSEqC"
 msgstr "DiSEqC nhanh"
 
-msgid "Fast Scan"
-msgstr "Quét nhanh"
-
 msgid "Fast epoch"
 msgstr "Kỷ nguyên nhanh"
 
 msgid "Fast forward speeds"
 msgstr "Tốc độ chuyển tiếp nhanh"
+
+#, fuzzy
+msgid "FastScan"
+msgstr "Quét nhanh"
+
+#, fuzzy
+msgid "Fastscan"
+msgstr "Quét nhanh"
 
 msgid "Favourites"
 msgstr "Yêu thích"
@@ -4343,6 +4376,9 @@ msgstr "Biểu tượng"
 msgid "If disabled, underline characters in file and directory names are not shown and are replaced with spaces."
 msgstr "Nếu bị tắt, các ký tự gạch chân trong tên tệp và thư mục sẽ không được hiển thị và được thay thế bằng dấu cách."
 
+msgid "If enabled, a log will be kept of CEC protocol traffic ('hdmicec.log')"
+msgstr ""
+
 msgid "If enabled, bookmarks will be updated with the new location when you move or copy a recording."
 msgstr "Nếu được bật, dấu trang sẽ được cập nhật với vị trí mới khi bạn di chuyển hoặc sao chép bản ghi."
 
@@ -4360,6 +4396,9 @@ msgstr "Nếu được đặt là 'Có', thì âm thanh chỉ được phát ở
 
 msgid "If set to 'yes' signal values (SNR, etc) will be calculated from API V3. This is an old API version that has now been superseded."
 msgstr "Nếu được đặt thành giá trị tín hiệu 'có' (SNR, v.v.) sẽ được tính từ API V3. Đây là một phiên bản API cũ đã được thay thế."
+
+msgid "If set to 'yes' the same commands will be sent to the TV for deep standby events, as are sent during regular standby events."
+msgstr ""
 
 msgid "If using multiple uncommitted switches the DiSEqC commands must be sent multiple times. Set to the number of uncommitted switches in the chain minus one."
 msgstr "Nếu sử dụng nhiều chuyển mạch không được cam kết, các lệnh DiSEqC phải được gửi nhiều lần. Đặt thành số lượng công tắc không được cam kết trong chuỗi trừ đi một."
@@ -4402,6 +4441,10 @@ msgstr "Bỏ qua mạng con không gian tên DVB-T"
 
 msgid "Ignore conflict"
 msgstr "Bỏ qua xung đột"
+
+#, fuzzy
+msgid "Image View On"
+msgstr "Hình ảnh: "
 
 #, python-format
 msgid ""
@@ -5533,9 +5576,6 @@ msgstr "Không tìm thấy kết nối mạng"
 msgid "No new plugins found"
 msgstr "Không tìm thấy plugin mới"
 
-msgid "No positioner capable frontend found."
-msgstr "Không tìm thấy vị trí có khả năng frontend."
-
 msgid "No priority"
 msgstr "Không ưu tiên"
 
@@ -5568,9 +5608,6 @@ msgstr "Không cho tất cả"
 
 msgid "No transparency"
 msgstr "Không minh bạch"
-
-msgid "No tuner is configured for use with a diseqc positioner!"
-msgstr "Không có bộ chỉnh nào được cấu hình để sử dụng với bộ định vị diseqc!"
 
 msgid ""
 "No tuner is enabled!\n"
@@ -5868,6 +5905,9 @@ msgstr "Tệp PGS"
 
 msgid "PGS file"
 msgstr "Tệp PGS"
+
+msgid "PID Filtering"
+msgstr ""
 
 msgid "PIN code needed"
 msgstr "Mã PIN cần thiết"
@@ -6468,6 +6508,10 @@ msgstr "Nhấn OK để chọn dịch vụ."
 msgid "Press OK to select satellites"
 msgstr "Nhấn OK để chọn vệ tinh"
 
+#, fuzzy
+msgid "Press OK to select the save location of the log file."
+msgstr "Nhấn OK để chuyển đổi lựa chọn."
+
 msgid "Press OK to select/deselect a CAId."
 msgstr "Nhấn OK để chọn / bỏ chọn CAId."
 
@@ -6579,6 +6623,10 @@ msgstr "Puerto Rico"
 
 msgid "Purge deleted user bouquets"
 msgstr "Thanh lọc người dùng đã xóa"
+
+#, fuzzy
+msgid "Put A/V receiver to standby too."
+msgstr "Đặt máy thu ở chế độ chờ"
 
 msgid "Put TV in standby"
 msgstr "Đặt TV ở chế độ chờ"
@@ -6747,9 +6795,6 @@ msgstr "Khu vực"
 
 msgid "Relative"
 msgstr "Quan hệ"
-
-msgid "Relevant PIDs routing"
-msgstr "Định tuyến PID có liên quan"
 
 msgid "Reload"
 msgstr "Tải lại"
@@ -8106,6 +8151,10 @@ msgstr "Hiển thị chỉ số hồ sơ"
 msgid "Show red LED on VFD"
 msgstr ""
 
+#, fuzzy
+msgid "Show satellites list"
+msgstr "Hiển thị danh sách dịch vụ"
+
 msgid "Show screensaver"
 msgstr "Hiển thị bảo vệ màn hình"
 
@@ -8117,9 +8166,6 @@ msgstr "Hiển thị thông tin thứ hai"
 
 msgid "Show service list"
 msgstr "Hiển thị danh sách dịch vụ"
-
-msgid "Show service name and event description among each other instead of side by side."
-msgstr ""
 
 msgid "Show service type icons"
 msgstr "Hiển thị biểu tượng loại dịch vụ"
@@ -8150,6 +8196,9 @@ msgstr "Hiển thị biểu tượng trên màn hình"
 
 msgid "Show the radio player..."
 msgstr "Hiển thị trình phát radio ..."
+
+msgid "Show the service information on two lines in the channel selection screen. You can choose between the current event description below the channel name, or the current event description next to the channel name, and the next event description on the second line."
+msgstr ""
 
 msgid "Show the tv player..."
 msgstr "Hiển thị trình phát tv ..."
@@ -8234,6 +8283,10 @@ msgstr "Đơn"
 
 msgid "Single EPG"
 msgstr "EPG đơn"
+
+#, fuzzy
+msgid "Single line mode"
+msgstr "Chọn chế độ video"
 
 msgid "Single satellite"
 msgstr "Vệ tinh đơn"
@@ -8357,6 +8410,9 @@ msgstr "Quần đảo Solomon"
 
 msgid "Somalia"
 msgstr "Somalia"
+
+msgid "Some TVs do not wake from standby when they receive the 'Image View On' command. If this is the case try the 'Text View On' command instead."
+msgstr ""
 
 msgid "Some plugins are not available:\n"
 msgstr "Một số plugin không có sẵn:\n"
@@ -8768,6 +8824,11 @@ msgstr "Mặt trời"
 msgid "Sunday"
 msgstr "Chủ nhật"
 
+msgid ""
+"Sundtek - hardware blind scan in progress.\n"
+"Please wait(3-20 min) for the scan to finish."
+msgstr ""
+
 msgid "Suriname"
 msgstr "Xuameame"
 
@@ -8965,6 +9026,9 @@ msgstr "Kiểm tra"
 msgid "Testscreens that are helpfull to fine-tune your display"
 msgstr "Kiểm tra màn hình hữu ích để tinh chỉnh màn hình của bạn"
 
+msgid "Text View On"
+msgstr ""
+
 msgid "Text color"
 msgstr "Văn bản màu"
 
@@ -9003,6 +9067,9 @@ msgstr "Mã PIN đã được lưu thành công."
 
 msgid "The PIN codes you entered are different."
 msgstr "Mã PIN bạn đã nhập là khác nhau."
+
+msgid "The command to wake from standby will be sent multiple times."
+msgstr ""
 
 #, python-format
 msgid ""
@@ -9698,6 +9765,14 @@ msgstr "Tuvalu"
 msgid "Two"
 msgstr "Hai"
 
+#, fuzzy
+msgid "Two lines"
+msgstr "Hiển thị dòng thông tin"
+
+#, fuzzy
+msgid "Two lines and next event"
+msgstr "Đi đến sự kiện tiếp theo"
+
 msgid "Type"
 msgstr "Kiểu"
 
@@ -10188,6 +10263,9 @@ msgstr "Âm lượng"
 msgid "Volume down"
 msgstr "Giảm âm lượng"
 
+msgid "Volume keys on the receiver remote will control the TV volume."
+msgstr ""
+
 msgid "Volume up"
 msgstr "Tăng âm lượng"
 
@@ -10224,11 +10302,22 @@ msgstr "Chờ phân vùng"
 msgid "Wake On LAN"
 msgstr "Đường dây mạng LAN"
 
+msgid "Wake the receiver from standby when selected wake command is sent from the TV."
+msgstr ""
+
 msgid "Wakeup"
 msgstr "Thức dậy"
 
+#, fuzzy
+msgid "Wakeup A/V receiver from standby too."
+msgstr "Nhận thức dậy từ chế độ chờ"
+
 msgid "Wakeup TV from standby"
 msgstr "Wake Up TV từ chế độ chờ"
+
+#, fuzzy
+msgid "Wakeup command for TV"
+msgstr "Tín hiệu báo thức từ TV"
 
 msgid "Wakeup receiver for start timer"
 msgstr "Nhận Wakeup cho bộ đếm thời gian bắt đầu"
@@ -10345,6 +10434,14 @@ msgstr "Khi được bật, các nút mũi tên xung quanh nút OK sẽ tuân th
 msgid "When enabled the left, right, CH+/-, B+/-, P+/- buttons will follow the 'neutrino' style zap controls instead of the enigma2 style."
 msgstr "Khi được bật các nút trái, phải, CH +/-, B +/-, P +/- sẽ tuân theo các điều khiển zap kiểu 'neutrino' thay vì kiểu enigma2."
 
+#, fuzzy
+msgid "When enabled the receiver will automatically return to standby when the TV is turned off."
+msgstr "Khi được bật, máy thu sẽ tự động sử dụng đoạn âm thanh mà bạn đã chọn trước đó."
+
+#, fuzzy
+msgid "When enabled the receiver will automatically wake from standby when the TV is turned on."
+msgstr "Khi được bật, máy thu sẽ tự động sử dụng đoạn âm thanh mà bạn đã chọn trước đó."
+
 msgid "When enabled the set top box is able to wakeup on LAN"
 msgstr "Khi được bật, hộp trên cùng có thể thức dậy trên mạng LAN"
 
@@ -10450,6 +10547,10 @@ msgstr "Khi được bật, các luồng http được giải mã ở phía máy
 msgid "When enabled, it is possible to leave the movieplayer with exit."
 msgstr "Khi được bật, có thể rời khỏi trình phát phim với lối ra."
 
+#, fuzzy
+msgid "When enabled, it will automatically play to the last saved radio service when switching to radio mode."
+msgstr "Khi được bật, máy thu sẽ tự động sử dụng đoạn âm thanh mà bạn đã chọn trước đó."
+
 msgid "When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)."
 msgstr "Khi được bật, đo mức tiêu thụ năng lượng để phát hiện khi rôto dừng quay (khi được bộ chỉnh tần hỗ trợ)."
 
@@ -10531,6 +10632,9 @@ msgstr "Khi khác, một bản ghi sẽ bắt đầu sớm hơn thời gian bắ
 msgid "When nonzero, a recording will stop later than the ending time indicated by the EPG."
 msgstr "Khi khác 0, bản ghi sẽ dừng muộn hơn thời gian kết thúc được chỉ định bởi EPG."
 
+msgid "When receiver wakes from standby, it will command the TV to switch to the HDMI input the receiver is connected to."
+msgstr ""
+
 msgid "When selected this allows video modes to be selected even if they are not reported as supported."
 msgstr "Khi được chọn, điều này cho phép các chế độ video được chọn ngay cả khi chúng không được báo cáo là được hỗ trợ."
 
@@ -10539,6 +10643,9 @@ msgstr "Khi nội dung có tỷ lệ khung hình là 16: 9, hãy chọn có chia
 
 msgid "When the content has an aspect ratio of 4:3, choose whether to scale/stretch the picture."
 msgstr "Khi nội dung có tỷ lệ khung hình là 4: 3, hãy chọn chia tỷ lệ / kéo dài hình ảnh."
+
+msgid "When the receiver wakes from standby or deep standby, it will send a command to the TV to bring it out of standby too."
+msgstr ""
 
 msgid "Where to save temporary timeshift recordings?"
 msgstr "Lưu bản ghi timeshift tạm thời ở đâu?"
@@ -10946,6 +11053,9 @@ msgstr "hoạt động"
 
 msgid "actual time only"
 msgstr "chỉ thời gian thực tế"
+
+msgid "additional cable of rotor"
+msgstr ""
 
 msgid "adult movie/drama"
 msgstr "phim / phim người lớn"
@@ -11641,6 +11751,10 @@ msgstr "nhạc rock / pop"
 
 msgid "romance"
 msgstr "lãng mạn"
+
+#, fuzzy
+msgid "rotor"
+msgstr "Cánh quạt: "
 
 msgid "running"
 msgstr "đang chạy"
