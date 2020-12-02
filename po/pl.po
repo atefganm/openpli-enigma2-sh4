@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2019-12-03 20:02+0100\n"
+"POT-Creation-Date: 2020-12-01 09:56+0000\n"
+"PO-Revision-Date: 2020-12-02 19:26+0100\n"
 "Last-Translator: blzr <blzr@o2.pl>\n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 2.4.2\n"
 
 msgid ""
 "\n"
@@ -3301,13 +3301,12 @@ msgstr "Włącz Virgin EPG"
 msgid "Enable auto cable scan"
 msgstr "Włącz automatyczny skan TV kablowej"
 
-#, fuzzy
 msgid "Enable auto fastscan"
-msgstr "Włącz automatyczny fast scan"
+msgstr "Włącz automatyczny fastscan"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Enable auto fastscan for %s"
-msgstr "Włącz automatyczny fast scan dla %s"
+msgstr "Włącz automatyczny fastscan dla %s"
 
 msgid "Enable bouquet edit"
 msgstr "Włącz edycję bukietu"
@@ -3838,13 +3837,11 @@ msgstr "Szybkie odtwarzanie"
 msgid "Fast forward speeds"
 msgstr "Prędkości przewijania  w przód"
 
-#, fuzzy
 msgid "FastScan"
-msgstr "Szybkie skanowanie"
+msgstr ""
 
-#, fuzzy
-msgid "FastScan"
-msgstr "Szybkie skanowanie"
+msgid "Fastscan"
+msgstr ""
 
 msgid "Favourites"
 msgstr "Ulubione"
@@ -8175,7 +8172,10 @@ msgstr ""
 
 #, fuzzy
 msgid "Show satellites list"
-msgstr "Wyświetl listę kanałów"
+msgstr "Wyświetl listę satelitów"
+
+msgid "Show screen path"
+msgstr "Wyświetlaj ścieżkę menu"
 
 msgid "Show screensaver"
 msgstr "Wygaszacz ekranu"
