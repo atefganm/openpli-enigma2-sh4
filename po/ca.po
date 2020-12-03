@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2007-08-14 10:23+0200\n"
+"POT-Creation-Date: 2020-12-03 13:26+0100\n"
+"PO-Revision-Date: 2020-11-30 18:56+0100\n"
 "Last-Translator: Oriol Pellicer <oriol@elsud.org>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -5022,16 +5022,16 @@ msgid "Index"
 msgstr "Índex"
 
 msgid "Index allocated:"
-msgstr ""
+msgstr "Índex assignat:"
 
 msgid "India"
-msgstr ""
+msgstr "India"
 
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonesia"
 
 msgid "Indonesian"
-msgstr ""
+msgstr "Indonesian"
 
 #
 msgid "Info"
@@ -5048,7 +5048,7 @@ msgid "Info bar timeout"
 msgstr "Temps d'aparició de la barra d'informació"
 
 msgid "Infobar frontend data source"
-msgstr ""
+msgstr "Font de dades del frontend infobar"
 
 #
 msgid "Information"
@@ -5059,14 +5059,14 @@ msgid "Init"
 msgstr "Iniciar"
 
 msgid "Initial fast forward speed"
-msgstr ""
+msgstr "Velocitat inicial d’avanç ràpid"
 
 #
 msgid "Initial location in new timers"
-msgstr ""
+msgstr "Ubicació inicial en nous temporitzadors"
 
 msgid "Initial lock ratio"
-msgstr ""
+msgstr "Relació de bloqueig inicial"
 
 #
 #, fuzzy
@@ -9185,7 +9185,7 @@ msgid "Show info"
 msgstr ""
 
 msgid "Show info line"
-msgstr ""
+msgstr "Mostra la línia d’informació"
 
 #
 msgid "Show infobar on channel change"
@@ -9200,13 +9200,13 @@ msgid "Show infobar on skip forward/backward"
 msgstr "Mostrar la barra anant endavant/enrere"
 
 msgid "Show latest commits"
-msgstr ""
+msgstr "Mostra els darrers compromisos"
 
 msgid "Show latest update log"
-msgstr ""
+msgstr "Mostra el registre d’actualitzacions més recent"
 
 msgid "Show media player on main menu"
-msgstr ""
+msgstr "Mostra el reproductor multimèdia al menú principal"
 
 msgid "Show menu or plugin numbers"
 msgstr ""
@@ -9215,25 +9215,25 @@ msgid "Show menu paths"
 msgstr ""
 
 msgid "Show message when recording starts"
-msgstr ""
+msgstr "Mostra el missatge quan comença la gravació"
 
 msgid "Show movie lengths in movielist"
-msgstr ""
+msgstr "Mostra les longituds de la pel·lícula a la pel·lícula"
 
 msgid "Show movies"
-msgstr ""
+msgstr "Mostra pel·lícules"
 
 msgid "Show multi channel EPG"
-msgstr ""
+msgstr "Mostra EPG multicanal"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL did not complete"
-msgstr ""
+msgstr "Mostra la notificació quan no s’han completat els canals d’importació i / o EPG des de l’URL del receptor remot"
 
 msgid "Show notification when import channels and/or EPG from remote receiver URL is completed"
-msgstr ""
+msgstr "Mostra notificació quan s’ha completat els canals d’importació i / o EPG des de l’URL del receptor remot"
 
 msgid "Show notification when import channels was not successful"
-msgstr ""
+msgstr "Mostra la notificació quan els canals d’importació no han tingut èxit"
 
 msgid "Show notification when import channels was successful"
 msgstr ""
@@ -9242,23 +9242,23 @@ msgid "Show on VFD"
 msgstr ""
 
 msgid "Show packages to be updated"
-msgstr ""
+msgstr "Mostra els paquets a actualitzar"
 
 msgid "Show picons in channel selection list"
-msgstr ""
+msgstr "Mostra els picons a la llista de selecció de canals"
 
 msgid "Show picons in display"
-msgstr ""
+msgstr "Mostra els picons a la pantalla"
 
 #
 msgid "Show positioner movement"
 msgstr "Mostrar el moviment del motor"
 
 msgid "Show positioner position"
-msgstr ""
+msgstr "Mostrar la posició del posicionador"
 
 msgid "Show record clock icons"
-msgstr ""
+msgstr "Mostra les icones del rellotge de registre"
 
 msgid "Show record indicator"
 msgstr ""
@@ -9266,28 +9266,32 @@ msgstr ""
 msgid "Show red LED on VFD"
 msgstr ""
 
-#
+msgstr "Mostra l’indicador de registre"
+
 #, fuzzy
 msgid "Show satellites list"
-msgstr "Satèl·lits"
+msgstr "Mostra la llista de serveis"
+
+msgid "Show screen path"
+msgstr "Mostra el camí de la pantalla"
 
 msgid "Show screensaver"
-msgstr ""
+msgstr "Mostra el salvapantalles"
 
 msgid "Show second InfoBar"
-msgstr ""
+msgstr "Mostra el segon InfoBar"
 
 msgid "Show second infobar"
-msgstr ""
+msgstr "Mostrar segon infobar"
 
 msgid "Show service list"
-msgstr ""
+msgstr "Mostra la llista de serveis"
 
 msgid "Show service type icons"
-msgstr ""
+msgstr "Mostra les icones del tipus de servei"
 
 msgid "Show servicelist or movies"
-msgstr ""
+msgstr "Mostrar llista de servicis o pel·lícules"
 
 msgid "Show single service EPG"
 msgstr ""

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2020-03-22 22:42+0100\n"
+"POT-Creation-Date: 2020-12-01 09:56+0000\n"
+"PO-Revision-Date: 2020-12-03 13:29+0100\n"
 "Last-Translator: Pr2\n"
 "Language-Team: french\n"
 "Language: fr\n"
@@ -3812,13 +3812,11 @@ msgstr "Époque rapide"
 msgid "Fast forward speeds"
 msgstr "Vitesses avance rapide"
 
-#, fuzzy
 msgid "FastScan"
-msgstr "Recherche rapide"
+msgstr "FastScan"
 
-#, fuzzy
 msgid "Fastscan"
-msgstr "Recherche rapide"
+msgstr "Fastscan"
 
 msgid "Favourites"
 msgstr "Favoris"
@@ -8133,7 +8131,7 @@ msgstr ""
 
 #, fuzzy
 msgid "Show satellites list"
-msgstr "Afficher liste service"
+msgstr "Afficher la liste des satellites"
 
 msgid "Show screensaver"
 msgstr "Afficher l'économiseur d'écran"
@@ -8951,7 +8949,7 @@ msgstr ""
 "\n"
 "Traducteur: Pr2\n"
 "Support: www.openpli.org\n"
-"Dernière MAJ: 25-03-2020"
+"Dernière MAJ: 03-12-2020"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "Fichier TS trop grand pour le niveau 1 ISO9660!"
