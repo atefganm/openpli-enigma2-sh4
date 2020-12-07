@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2020-02-19 11:12+0100\n"
+"POT-Creation-Date: 2020-12-01 09:56+0000\n"
+"PO-Revision-Date: 2020-12-05 15:11+0100\n"
 "Last-Translator: mcfly82\n"
 "Language-Team: mcfly82 & wysless\n"
 "Language: hu_HU\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.4.2\n"
 
 msgid ""
 "\n"
@@ -3815,7 +3815,6 @@ msgstr "Előretekerési sebességek"
 msgid "FastScan"
 msgstr "Szolgáltatói keresés"
 
-#, fuzzy
 msgid "Fastscan"
 msgstr "Szolgáltatói keresés"
 
@@ -8137,9 +8136,11 @@ msgstr "Felvétel jelző ikon mutatása"
 msgid "Show red LED on VFD"
 msgstr ""
 
-#, fuzzy
 msgid "Show satellites list"
-msgstr "Csatornalista megjelenítése"
+msgstr "Műholdlista megjelenítése"
+
+msgid "Show screen path"
+msgstr "Menü útvonalak mutatása"
 
 msgid "Show screensaver"
 msgstr "Képernyőkímélő megjelenítése"
@@ -8944,14 +8945,14 @@ msgid "T2MI RAW Mode"
 msgstr "T2MI RAW mód"
 
 msgid "TEXT"
-msgstr ""
+msgstr "SZÖVEG"
 
 #. TRANSLATORS: Add here whatever should be shown in the "translator" about screen, up to 6 lines (use \n for newline)
 msgid "TRANSLATOR_INFO"
 msgstr ""
 "A fordítást készítette:\n"
 "mcfly82 & wysless\n"
-"Utolsó fordítás időpontja: 2020.02.19.\n"
+"Utolsó fordítás időpontja: 2020.12.05.\n"
 "Eredeti fordítás: MediaVox-Team, Robertut\n"
 "A magyar fordítás az OpenPLi projekthez készült.\n"
 "További információ: http://openpli.org"
@@ -8961,6 +8962,9 @@ msgstr "A TS fájl túl nagy az 'ISO9660 level 1' szabvány szerint!"
 
 msgid "TSID"
 msgstr "TSID"
+
+msgid "TUNER:"
+msgstr "TUNER:"
 
 msgid "TUNING"
 msgstr "HANGOLÁS"
