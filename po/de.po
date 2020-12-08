@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 22:53+0100\n"
+"POT-Creation-Date: 2020-12-08 01:48+0100\n"
 "PO-Revision-Date: 2020-07-16 01:08+0200\n"
 "Last-Translator: kueken\n"
 "Language-Team: kueken\n"
@@ -3793,6 +3793,10 @@ msgstr "Vorspul-Geschwindigkeiten"
 
 #, fuzzy
 msgid "FastScan"
+msgstr "Fast-Scan"
+
+#, fuzzy
+msgid "Fastscan"
 msgstr "Fast-Scan"
 
 msgid "Favourites"
