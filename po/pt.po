@@ -4,8 +4,8 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2014-12-15 19:38-0000\n"
-"Last-Translator: Phenom <phenomxy@gmail.com>\n"
+"PO-Revision-Date: 2020-12-09 13:09+0100\n"
+"Last-Translator: kueken\n"
 "Language-Team: Muaitai <muaitai@gmail.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: iso-8859-15\n"
-"X-Generator: Poedit 1.7.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #
 msgid ""
@@ -4357,10 +4357,6 @@ msgstr "Época rápida"
 #, fuzzy
 msgid "Fast forward speeds"
 msgstr "Velocidades de avanço rápido"
-
-#, fuzzy
-msgid "FastScan"
-msgstr "Pesquisa rápida"
 
 #, fuzzy
 msgid "FastScan"

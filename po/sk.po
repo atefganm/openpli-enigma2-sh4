@@ -4,14 +4,14 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2020-02-10 12:49+0100\n"
-"Last-Translator: Andrej Tobola <andrej.tobola@gmail.com>\n"
+"PO-Revision-Date: 2020-12-09 13:11+0100\n"
+"Last-Translator: kueken\n"
 "Language-Team: \n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 msgid ""
@@ -3516,13 +3516,10 @@ msgid "Error stop stream!"
 msgstr "Chyba zastavenia streamu!"
 
 msgid "Error when writing epg.dat on server"
-msgstr ""
+msgstr "Chyba pri zapisovaní epg.dat na server"
 
-#, fuzzy
 msgid "Error while retreiving epg.dat from server"
-msgstr ""
-"Chyba počas načítania informácie záložného časovača\n"
-"%s"
+msgstr "Chyba pri načítaní epg.dat zo servera"
 
 #, python-format
 msgid ""
@@ -3532,11 +3529,8 @@ msgstr ""
 "Chyba počas načítania informácie záložného časovača\n"
 "%s"
 
-#, fuzzy
 msgid "Error while retreiving location of epg.dat on server"
-msgstr ""
-"Chyba počas načítania informácie záložného časovača\n"
-"%s"
+msgstr "Chyba pri načítaní pozície epg.dat na serveri"
 
 #, python-format
 msgid ""
@@ -3688,12 +3682,11 @@ msgstr "Farba dialógov externých titulkov"
 msgid "External subtitle switch fonts"
 msgstr "Prepnúť fonty externých titulkov"
 
-#, fuzzy
 msgid "Externally powered"
-msgstr "Externé dátové úložisko %s"
+msgstr "Externe napájané"
 
 msgid "Extra end time to ignore inactivity sleeptimer"
-msgstr "Zadajte extra časový rámec ignorovania nečinnosti časovača prechodu do pohotovostného režimu"
+msgstr "Dodatočný čas konca ignorovania pri nečinnosti"
 
 msgid "Extra motor options"
 msgstr "Rozšírené možnosti motora"
@@ -3832,10 +3825,6 @@ msgstr "Rýchla doba"
 
 msgid "Fast forward speeds"
 msgstr "Rýchlosti prevíjania vpred"
-
-#, fuzzy
-msgid "FastScan"
-msgstr "Rýchle vyhľadávanie (FastScan)"
 
 #, fuzzy
 msgid "FastScan"

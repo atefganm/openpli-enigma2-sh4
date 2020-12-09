@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: Project Slovenia\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2015-08-30 09:00+0200\n"
-"Last-Translator: Taykun345 <support@satnigmo.com>\n"
+"PO-Revision-Date: 2020-12-09 13:16+0100\n"
+"Last-Translator: kueken\n"
 "Language-Team: Satnigmo <support@satnigmo.com>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 2.3\n"
 
 #
 msgid ""
@@ -4401,12 +4401,6 @@ msgid "Fast forward speeds"
 msgstr "Hitrosti hitrega predvajanja naprej"
 
 #
-#, fuzzy
-msgid "FastScan"
-msgstr "Hitro iskanje"
-
-#
-#, fuzzy
 msgid "FastScan"
 msgstr "Hitro iskanje"
 

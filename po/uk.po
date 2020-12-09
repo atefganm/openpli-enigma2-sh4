@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2016-11-17 12:51+0200\n"
-"Last-Translator: vovan43<vovan43@ex.ua>, sety <tim1065@mail.ru>, Irkoff <irkoff@gmail.com>\n"
+"PO-Revision-Date: 2020-12-09 13:21+0100\n"
+"Last-Translator: kueken\n"
 "Language-Team: gisclub.tv <http://gisclub.tv/>\n"
 "Language: uk_UA\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.10\n"
+"X-Generator: Poedit 2.3\n"
 
 msgid ""
 "\n"
@@ -3884,10 +3884,6 @@ msgstr "Час для прискоренної швидкості"
 
 msgid "Fast forward speeds"
 msgstr "Швидкість перемотування вперед"
-
-#, fuzzy
-msgid "FastScan"
-msgstr "Швидкий пошук по провайдеру"
 
 #, fuzzy
 msgid "FastScan"
