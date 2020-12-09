@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 09:56+0000\n"
+"POT-Creation-Date: 2020-12-09 01:55+0100\n"
 "PO-Revision-Date: 2020-12-02 19:26+0100\n"
 "Last-Translator: blzr <blzr@o2.pl>\n"
 "Language-Team: \n"
@@ -8173,9 +8173,6 @@ msgstr ""
 #, fuzzy
 msgid "Show satellites list"
 msgstr "Wyświetl listę satelitów"
-
-msgid "Show screen path"
-msgstr "Wyświetlaj ścieżkę menu"
 
 msgid "Show screensaver"
 msgstr "Wygaszacz ekranu"

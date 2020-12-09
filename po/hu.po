@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 09:56+0000\n"
+"POT-Creation-Date: 2020-12-09 01:55+0100\n"
 "PO-Revision-Date: 2020-12-05 15:11+0100\n"
 "Last-Translator: mcfly82\n"
 "Language-Team: mcfly82 & wysless\n"
@@ -8139,9 +8139,6 @@ msgstr ""
 msgid "Show satellites list"
 msgstr "Műholdlista megjelenítése"
 
-msgid "Show screen path"
-msgstr "Menü útvonalak mutatása"
-
 msgid "Show screensaver"
 msgstr "Képernyőkímélő megjelenítése"
 
@@ -8962,9 +8959,6 @@ msgstr "A TS fájl túl nagy az 'ISO9660 level 1' szabvány szerint!"
 
 msgid "TSID"
 msgstr "TSID"
-
-msgid "TUNER:"
-msgstr "TUNER:"
 
 msgid "TUNING"
 msgstr "HANGOLÁS"
