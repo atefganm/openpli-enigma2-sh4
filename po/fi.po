@@ -4,16 +4,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2019-02-13 20:52+0200\n"
-"Last-Translator: jamu\n"
+"POT-Creation-Date: 2020-12-09 11:22+0100\n"
+"PO-Revision-Date: 2020-12-09 11:20+0100\n"
+"Last-Translator: kueken\n"
 "Language-Team: BoxFreak/jamu\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 
 #
 msgid ""
@@ -256,7 +256,7 @@ msgstr ""
 msgid "%d min"
 msgstr "%d min"
 
-#, python-format
+#, fuzzy, python-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minuutti"
@@ -1072,8 +1072,9 @@ msgstr "Salli kuulovammaisten tekstitys"
 msgid "Allow unsupported modes"
 msgstr "Salli kaikki videotilat"
 
+#, fuzzy
 msgid "Allows the TV remote to be used to control the receiver."
-msgstr ""
+msgstr "Käytä TV:n kaukosäädintä"
 
 #
 msgid "Alpha"
@@ -3366,10 +3367,8 @@ msgstr "Haluatko poistua overscan avustimesta?"
 msgid "Do you want to reboot your receiver?"
 msgstr "Haluatko käynnistää vastaanottimen uudelleen?"
 
-#
-#, fuzzy
 msgid "Do you want to remove all the crash logfiles"
-msgstr "Haluatko poistaa ohjelmapaketin:\n"
+msgstr ""
 
 #
 msgid "Do you want to remove the package:\n"
@@ -4208,7 +4207,7 @@ msgid "FastScan"
 msgstr "Nopea haku"
 
 #, fuzzy
-msgid "FastScan"
+msgid "Fastscan"
 msgstr "Nopea haku"
 
 #
@@ -7269,10 +7268,9 @@ msgstr "Valitse kanava painamalla OK."
 msgid "Press OK to select satellites"
 msgstr "Valitse palveluntarjoaja painamalla OK."
 
-#
 #, fuzzy
 msgid "Press OK to select the save location of the log file."
-msgstr "Muuta valintaa OK-näppäimellä."
+msgstr "Valitse hakemisto lokitiedostolle"
 
 #
 msgid "Press OK to select/deselect a CAId."
@@ -7508,9 +7506,8 @@ msgstr "Päivitetäänkö vastaanotin nyt ja käynnistetään uudelleen?"
 msgid "Reboot"
 msgstr "Käynnistä laite uudelleen"
 
-#, fuzzy
 msgid "Rec"
-msgstr "Punainen"
+msgstr "Tallennus"
 
 msgid "Recall to previous service"
 msgstr "Palaa edelliselle kanavalle"
@@ -9071,6 +9068,7 @@ msgstr "Näytä mediatoistin päävalikossa"
 msgid "Show menu or plugin numbers"
 msgstr "Numeroi valikot ja/tai lisäosat"
 
+#, fuzzy
 msgid "Show menu paths"
 msgstr "Näytä valikkojen polku"
 
@@ -10067,7 +10065,6 @@ msgid "TRANSLATOR_INFO"
 msgstr ""
 "OpenPLI suomenkielinen käännös: BoxFreak, jamu\n"
 "\n"
-"Kiitos www.huoltovalikko.com useista lainatuista\n"
 "käännöksistä: timoj, Kojo, Samzam"
 
 #
@@ -10449,8 +10446,9 @@ msgstr ""
 msgid "This option allows you to show menu and/or plugin number quick links."
 msgstr "Valitse näytetäänkö valikoissa ja/tai lisäosissa numerointi, jotka toimivat pikalinkkeinä"
 
+#, fuzzy
 msgid "This option allows you to show menu paths."
-msgstr "Määritä näytetäänkö valikkojen polku"
+msgstr "Tämä asetus valitsee HDR-tyypin"
 
 msgid "This option allows you to view the old and new settings side by side."
 msgstr "Tämä asetus määrittää näytetäänkö vanhat ja uudet asetuksen rinnakkain."
