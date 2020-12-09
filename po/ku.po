@@ -8,17 +8,15 @@ msgstr ""
 "Project-Id-Version: enigma2 Kurdish translation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-01 22:53+0100\n"
-"PO-Revision-Date: 2013-04-22 04:29+0330\n"
-"Last-Translator: dimili21\n"
+"PO-Revision-Date: 2020-12-09 11:53+0100\n"
+"Last-Translator: kueken\n"
 "Language-Team: \n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.5\n"
-"X-Poedit-Language: Kurdish\n"
-"X-Poedit-Country: IRAQ\n"
+"X-Generator: Poedit 2.3\n"
 
 msgid ""
 "\n"
@@ -3831,10 +3829,6 @@ msgstr "Fast epoch"
 
 msgid "Fast forward speeds"
 msgstr "Fast forward speeds"
-
-#, fuzzy
-msgid "FastScan"
-msgstr "Lezi Légerin"
 
 #, fuzzy
 msgid "FastScan"
